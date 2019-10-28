@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+page-4
+----------------------------------------------------------------------------*/
+.alfawave .wrap-r {
+  background :#fffbf8;
+}
+.page-4 {
+  position:relative;
+  z-index: 0;
+  background :url("../img/alfawave/bg.png") center top no-repeat;
+  background-size: 100%;
+  padding-top: 16px;
+  @include sp {
+    background :url("../img/alfawave/bg.png") center top repeat;
+    background-size: 80%;
+    padding: 8px 0 0;
+  }
+  &-header {
+    width: 100%;
+    display: block;
+    background: $w0 url("../img/alfawave/title_bg.jpg") center -70px no-repeat;
+    background-size: 100%;
+    padding: 40px 0 0 0;
+    @include pc {
+      background: $w0 url("../img/alfawave/title_bg.jpg") center -50px no-repeat;
+      background-size: 100%;
+    }
+    @include sp {
+      box-shadow: 0 -3px 4px rgba($b1,0.1);
+      background: $w0 url("../img/alfawave/title_bg.jpg") center 0 no-repeat;
+      background-size: 110%;
+      padding: 15% 0 0 0;
+      //border-radius: 16px 16px 0 0;
+    }
+    &-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        display: inline-block;
+        width: 700px;
+        @include pc {
+          width: 500px;
+        }
+        @include sp {
+          width: 80%;
+        }
+      }
+    }
+    blockquote {
+      display: block;
+      overflow: hidden;
+      text-align: center;
+      width: auto;
+      font-weight: 400;
+      padding: 40px 0;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 2.0;
+      @include pc {
+        padding: 40px 0 20px;
+      }
+      @include sp {
+        font-size: 12px;
+        padding: 36px 16px 20px;
+        line-height: 1.6;
+      }
+    }
+    &-point {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      @include sp {
+        margin-top: 8px;
+      }
+      ul {
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        @include sp {
+          width: 100%;
+          justify-content: center;
+        }
+        li {
+          text-align: center;
+          width: 31%;
+          background: #ed798e;
+          border-radius: 50px;
+          padding: 8px;
+          font-size: 18px;
+          letter-spacing: 2px;
+          color: $w0;
+          font-weight: bold;
+          margin-bottom: 2%;
+          @include sp {
+            font-size: 12px;
+            width: 46%;
+            margin: 1%;
+            letter-spacing: 0;
+          }
+        }
+      }
+    }
+  }
+  &-details {
+    background :#fffbf8;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    @include sp {
+      padding-top: 24px;
+      padding-bottom: 16px;
+    }
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      width: 1160px;
+      @include pc {
+        width: 96%;
+      }
+      @include sp {
+        display: block;
+        width: 90%;
+      }
+    }
+    &-box {
+      width: 30%;
+      overflow: hidden;
+      @include pc {
+        width: 31%;
+      }
+      @include sp {
+        width: 100%;
+      }
+      h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5em;
+        border-top: 1px dashed #6a3314;
+        border-bottom: 1px dashed #6a3314;
+        span {
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          color:#6a3314;
+          @include sp {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    &-text {
+      width: 100%;
+      font-size: 16px;
+      text-align: justify;
+      letter-spacing: 2px;
+      line-height: 1.6;
+      padding: 16px 0;
+      @include sp {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 16px 8px;
+        margin-bottom: 16px;
+      }
+    }
+    &-img {
+      width: 100%;
+      display: block;
+      margin-top: 16px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &-summary {
+    background :#fffbf8;
+    display: flex;
+    justify-content: center;
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      width: 1160px;
+      @include pc {
+        width: 96%;
+        flex-wrap: wrap;
+        position: relative;
+        margin-bottom: 160px;
+      }
+      @include sp {
+        margin-bottom: 40px;
+      }
+    }
+    &-l {
+      position: relative;
+      top: -50px;
+      width: 820px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 140px 56px 80px 30px;
+      background: url("../img/alfawave/summary_bg.png") center top no-repeat;
+      background-size: 800px;
+      @include pc {
+        top: -20px;
+        width: 100%;
+      }
+      @include sp {
+        top: 40px;
+        background: url("../img/alfawave/summary_bg_sp.png") center top no-repeat;
+        padding: 40px 16px 16px;
+        background-size: 110%;
+        box-shadow: 0 1px 8px rgba($b1,0.3);
+        border-radius: 8px;
+        &:before {
+          content: '';
+          display: inline-block;
+          width: 280px;
+          height: 73px;
+          position: absolute;
+          top: -40px;
+          background: url("../img/alfawave/summary_title.svg") center top no-repeat;
+          background-size: contain;
+        }
+      }
+      &-box {
+        width: 45%;
+        overflow: hidden;
+        display: block;
+        margin-bottom: 16px;
+        @include sp {
+          width: 100%;
+          position: relative;
+        }
+        h4 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          color:#e9546b;
+          padding-bottom: 8px;
+          border-bottom: 1px solid #555;
+          @include sp {
+            font-size: 16px;
+          }
+        }
+      }
+      &-text {
+        width: 100%;
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 2px;
+        line-height: 1.6;
+        padding: 8px 0;
+        @include sp {
+          font-size: 12px;
+          letter-spacing: 1px;
+          line-height: 1.4;
+        }
+      }
+    }
+    &-r {
+      position: relative;
+      top: 40px;
+      width: 340px;
+      height: 380px;
+      display: block;
+      @include pc {
+        position: absolute;
+        top: 360px;
+        right: -10px;
+      }
+      @include sp {
+        position: static;
+        margin: 0 auto;
+        line-height: 1.0;
+        width: 96%;
+        height: auto;
+        small {
+          font-size: 10px;
+        }
+      }
+      img {
+        width: 100%;
+        @include sp {
+          display: block;
+          text-align: right;
+          width: 76%;
+          position: relative;
+          left: 90px;
+          top: -10px;
+        }
+      }
+    }
+  }
+}

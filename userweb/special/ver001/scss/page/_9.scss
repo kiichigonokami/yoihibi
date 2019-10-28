@@ -1,0 +1,483 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+page-9
+----------------------------------------------------------------------------*/
+.page-9 {
+  &-lineup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background :#fffbf8;
+    padding-bottom: 130px;
+    @include pc {
+      padding-bottom: 60px;
+    }
+    @include sp {
+      padding-bottom: 30px;
+    }
+    &-wrap {
+      width: 1160px;
+      height: auto;
+      padding: 56px 16px 8px;
+      border: 1px solid rgba(#6a3314,.5);
+      position: relative;
+      box-shadow: 4px 10px 20px rgba(0,0,0,0.2);
+      @include pc {
+        width: 96%;
+      }
+      @include sp {
+        padding: 32px 8px 8px;
+      }
+    }
+    &-title {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      background: #6a3314;
+      display: inline-block;
+      @include sp {
+        top: -14px;
+        left: 50%;
+        margin: 0 0 0 -140px;
+      }
+      @include ip5 {
+        margin: 0 0 0 -130px;
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: $w0;
+        margin: 8px 24px;
+        @include sp {
+          width: 280px;
+          text-align: center;
+          font-size: 16px;
+          margin: 4px 8px;
+        }
+        @include ip5 {
+          width: 260px;
+          text-align: center;
+          font-size: 14px;
+          margin: 4px 0;
+        }
+      }
+    }
+    &-contents {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      position: relative;
+      z-index: 3;
+      &-box {
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        padding: 16px 16px 110px;
+        margin-bottom: 1%;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+        border-radius: 8px;
+        position: relative;
+        @include sp {
+          padding: 16px 16px 72px;
+        }
+        &.stock-1 {
+          background:url("../img/sunmat/stock_1.png") right 86px no-repeat;
+          background-size: 50%;
+          @include pc {
+            background:url("../img/sunmat/stock_1.png") right 210px no-repeat;
+            background-size: 50%;
+          }
+          @include sp {
+            background:url("../img/sunmat/stock_1.png") center 8.5em no-repeat;
+            background-size: 100%;
+          }
+        }
+        &.stock-2 {
+          background:url("../img/sunmat/stock_2.png") right 96px no-repeat;
+          background-size: 700px;
+          @include pc {
+            background:url("../img/sunmat/stock_2_sp.png") right 90px no-repeat;
+            background-size: 50%;
+            padding-bottom: 150px;
+          }
+          @include sp {
+            background:url("../img/sunmat/stock_2.png") center 8.5em no-repeat;
+            background-size: 100%;
+            padding-bottom: 72px;
+          }
+          .head {
+            @include sp {
+              height: 16em;
+            }
+            @include ip5 {
+              height: 14em;
+            }
+          }
+        }
+        img {
+          width: 100%;
+        }
+        .head {
+          height: auto;
+          margin-bottom: 1em;
+          @include sp {
+            height: 23em;
+          }
+          @include ip5 {
+            height: 19em;
+          }
+          .title {
+            display: flex;
+            padding: 0;
+            margin: 0 0 16px 0;
+            border: 2px solid #6a3314;
+            background: $w0;
+            @include sp {
+              flex-wrap: wrap;
+            }
+            &-l {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 16%;
+              background: #6a3314;
+              height: 60px;
+              @include pc {
+                width: 30%;
+              }
+              @include sp {
+                width: 100%;
+                height: 30px;
+              }
+              span {
+                color: $w0;
+                font-weight: bold;
+                font-size: 24px;
+                &:after {
+                  content: 'タイプ';
+                  font-size: 14px;
+                }
+                @include sp {
+                  font-size: 16px;
+                }
+              }
+            }
+            &-r {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              width: 84%;
+              padding-left: 24px;
+              @include pc {
+                width: 70%;
+              }
+              @include sp {
+                width: 100%;
+                padding: 4px 8px;
+              }
+              span {
+                font-size: 18px;
+                color: #6a3314;
+                text-align: left;
+                font-weight: bold;
+                @include sp {
+                  font-size: 12px;
+                  text-align: center;
+                  margin: 0 auto;
+                }
+              }
+            }
+          }
+          .copy {
+            font-weight: bold;
+            font-size: 16px;
+            color: $ptn2_clr;
+            width: 100%;
+            text-shadow: 0px 0px 1px $w0,
+	             0px 0px 2px $w0,
+	             0px 0px 3px $w0,
+	             0px 0px 4px $w0,
+	             0px 0px 5px $w0,
+	             0px 0px 6px $w0;
+           @include sp {
+             width: 100%;
+           }
+          }
+          .img {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .detail {
+          position: relative;
+          h3 {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 8px 0;
+            small {
+              font-size: 80%;
+            }
+            @include sp {
+              font-size: 18px;
+            }
+            span {
+              background: #ff0000;
+              color: $w0;
+              padding: 4px 8px;
+              font-size: 12px;
+              border-radius: 4px;
+              position: relative;
+              top: -3px;
+              @include sp {
+                top: 0px;
+                font-size: 10px;
+                display: inline-block;
+              }
+            }
+          }
+          .price {
+            table {
+              width: 40%;
+              border-top: 1px dashed $b9;
+              @include sp {
+                width: 100%;
+              }
+              tr {
+                border-bottom: 1px dashed $b9;
+                th {
+                  &:first-child {
+                    color: $b1;
+                  }
+                  color: $b5;
+                  font-size: 90%;
+                  text-align: left;
+                  padding: 12px 0 10px;
+                  @include sp {
+                    font-size: 70%;
+                  }
+                }
+                td {
+                  font-size: 110%;
+                  font-weight: bold;
+                  text-align: right;
+                  padding: 12px 0 10px;
+                  &:after {
+                    font-size: 90%;
+                    content: '円(税込)';
+                  }
+                  @include sp {
+                    font-size: 90%;
+                    &:after {
+                      font-size: 80%;
+                      content: '円(税込)';
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .etc {
+            font-size: 12px;
+            display: block;
+            padding: 8px 0;
+            color: $b3;
+            width: 100%;
+            line-height: 1.6;
+            text-align: justify;
+            @include sp {
+              font-size: 10px;
+            }
+          }
+        }
+        .btn {
+          display: table;
+          position: absolute;
+          bottom: 16px;
+          @include pcx {
+            left: 16px;
+          }
+          @include sp {
+            width: 240px;
+            right: 50%;
+            margin: 0 -120px 0 0;
+          }
+          a {
+            font-weight: bold;
+            padding: 12px 16px 10px 48px;
+            width: 100%;
+            background: url(https://yoihibi.jp/client_info/FLORAHOUSE01/view/userweb/images/common/parts/icon_cart_w_s.png) no-repeat 16px center #F4A328;
+            background-size: 24px;
+            font-size: 16px;
+            color: $w0;
+            border-radius: 4px;
+            box-shadow: 0 3px 0 rgba(#C8820D,1);
+            margin: 8px auto 2px;
+            display: inline-block;
+            @include sp {
+              width: 240px;
+              background: url(https://yoihibi.jp/client_info/FLORAHOUSE01/view/userweb/images/common/parts/icon_cart_w_s.png) no-repeat 32px center #F4A328;
+              background-size: 24px;
+              padding: 12px 16px 10px 64px;
+            }
+            &:hover {
+              margin: 10px auto 0;
+              box-shadow: 0 1px 0 rgba(#C8820D,1);
+            }
+          }
+        }
+      }
+    }
+    &-check {
+      padding: 0 0 0 0;
+      margin-bottom: 8px;
+      display: block;
+      text-align: right;
+      span {
+        font-size: 14px;
+        text-align: right;
+      }
+    }
+  }
+
+  &-qa {
+    background :#fffbf8;
+    display: flex;
+    justify-content: center;
+    margin-top: -4%;
+    padding-bottom: 40px;
+    @include sp {
+      margin-top: 0;
+    }
+    &-wrap {
+      max-width: 1160px;
+      display: block;
+      @include pc {
+        width: 96%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    &-check {
+      width: 65%;
+      display: block;
+      padding: 8px;
+      line-height:1.6;
+      margin: 0;
+      font-size: 14px;
+      text-align: justify;
+      @include sp {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &-koe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background :#fffbf8;
+    padding-bottom: 56px;
+    @include sp {
+      padding-bottom: 30px;
+    }
+    &-wrap {
+      width: 1160px;
+      position: relative;
+      top: 0;
+      height: auto;
+      padding: 16px 16px 8px;
+      background: url("../img/sunmat/koe_bg.png") center top repeat;
+      background-size: 100%;
+      box-shadow: 4px 10px 20px rgba(0,0,0,0.2);
+      @include pc {
+        width: 96%;
+      }
+      @include sp {
+        padding: 16px 8px 8px;
+      }
+    }
+    &-title {
+      position: relative;
+      h2 {
+        width: 700px;
+        margin: 16px 0 8px 16px;
+        position: relative;
+        @include pc {
+          width: 450px;
+        }
+        @include sp {
+          width: 98%;
+          margin: 1%;
+        }
+        img {
+          width: 100%;
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: -90px;
+          width: 80px;
+          height: 80px;
+          background: url("../img/sunmat/koe_title_deco.svg") center no-repeat;
+          background-size: contain;
+          @include pc {
+            display: none;
+          }
+        }
+      }
+      &-comment {
+        width: 400px;
+        position: absolute;
+        top: -100px;
+        right: 0;
+        z-index: 0;
+        img {
+          width: 100%;
+        }
+        @include pc {
+          top: -80px;
+          width: 300px;
+        }
+        @include sp {
+          display: none;
+        }
+      }
+    }
+    &-contents {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      position: relative;
+      z-index: 3;
+      &-box {
+        width: 50%;
+        overflow: hidden;
+        display: block;
+        @include pc {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &-check {
+      padding: 0 0 0 0;
+      margin-bottom: 8px;
+      display: block;
+      text-align: right;
+      span {
+        font-size: 14px;
+        text-align: right;
+      }
+      @include sp {
+        font-size: 12px;
+      }
+    }
+  }
+}

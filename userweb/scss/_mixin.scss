@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/*---------------------------------------------
+opacity ---->  例→ @include opacity(0.5);
+---------------------------------------------*/
+@mixin opacity($opacity) {
+   opacity: $opacity;
+   $opacityIE: $opacity * 100;
+   filter: alpha(opacity=$opacityIE);
+}
+
+
+/* 何秒かけてアニメーションするか */
+@mixin duration($duration) {
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+}
+
+/* 何秒待ってアニメーションするか */
+@mixin delay($delay) {
+  -webkit-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+/* 何回繰り返すか */
+@mixin iteration-count($iteration-count) {
+  -webkit-animation-iteration-count: $iteration-count;
+  animation-iteration-count: $iteration-count;
+}
+
+/*---------------------------------------------
+blcset ---->  例→ @include blcset;
+---------------------------------------------*/
+@mixin blcset {
+	display:block;
+	overflow:hidden;
+}
+
+
+/*---------------------------------------------
+flexbox ---->  例→ @include flex;
+---------------------------------------------*/
+@mixin flex {
+	display:-webkit-box;
+  display:-moz-box;
+  display:-webkit-flexbox;
+  display:-moz-flexbox;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:flex;
+  -webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+
+/*---------------------------------------------
+flexbox折り返し ---->  例→ @include r_flex;
+---------------------------------------------*/
+@mixin r_flex {
+	display:-webkit-box;
+  display:-moz-box;
+  display:-webkit-flexbox;
+  display:-moz-flexbox;
+  display:-ms-flexbox;
+  display:-webkit-flex;
+  display:-moz-flex;
+  display:flex;
+  -webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+
+
+/*---------------------------------------------
+flexbox逆方向へ折り返し ---->  例→ @include flex_r;
+---------------------------------------------*/
+@mixin flex_r {display:-webkit-box;
+    display:-moz-box;
+    display:-webkit-flexbox;
+    display:-moz-flexbox;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:flex;
+    -webkit-flex-wrap:wrap-reverse;
+    -moz-flex-wrap:wrap-reverse;
+    -ms-flex-wrap:wrap-reverse;
+    flex-wrap:wrap-reverse;
+}
+
+
+/*==================
+ ▼ブレイクポイントのルール▼
+ -スマホを基本設計にする-
+==================*/
+$mdq-lx: 1600px; // 超大型PC
+$mdq-lg: 1280px; // 大型PC
+$mdq-md: 960px;  // 小型PC
+$mdq-sm: 600px;  // タブレット
+$mdq-xs: 480px;   // SP
+
+
+/*　画面サイズが1280pxから　*/
+@mixin pcx {
+  @media screen and (min-width:$mdq-lx) {
+    @content;
+  }
+}
+@mixin pcb {
+  @media screen and (min-width:$mdq-lg) {
+    @content;
+  }
+}
+@mixin pc {
+  @media (max-width: ($mdq-md)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($mdq-sm)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($mdq-xs)) {
+    @content;
+  }
+}
+@mixin ip5 {
+  @media screen and (min-width: 320px) and (max-width: 374px) {
+    @content;
+  }
+}
+
+
+/*---------------------------------------------
+勢いのあるボタン ---->  例→
+.twitter:hover:before {animation: pop 0.5s; animation-fill-mode: forwards;}
+.twitter:hover:after {animation: pulse 0.5s; animation-fill-mode: forwards; transform: translateY(-5px); transform: scale(0.1);}
+---------------------------------------------
+@keyframes pop {
+  0% {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  90% {
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  50% {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  70% {
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 1;
+  }
+  100% {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}*/
+
+
+/*---------------------------------------------
+WEBフォントをスムーズにする用
+ftsmz ---->  例→ @include ftsmz;
+---------------------------------------------*/
+@mixin ftsmz {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+/*---------------------------------------------
+文字省略用
+ellipsis ---->  例→ @include ellipsis;
+---------------------------------------------
+@mixin ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}*/

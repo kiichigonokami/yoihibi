@@ -1,0 +1,425 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+page-3
+----------------------------------------------------------------------------*/
+.page-3 {
+  position:relative;
+  z-index: 0;
+  background: $w0;
+  &-check {
+    font-size: 14px;
+    text-align: right;
+    display: block;
+    margin: 24px;
+  }
+  &-wrap {
+    padding: 0 0 0 0;
+  }
+  &-title {
+    width: 100%;
+    background : url("../img/page-3-title-bg.png") center repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 32px;
+    position: relative;
+    z-index: 4;
+    h2 {
+      width: 700px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &-top {
+    z-index: 5;
+    position: relative;
+    &-main {
+      width: 100%;
+      background: #fffaf3 url("../img/page-3-main-bg.png") center repeat;
+      background-size: 30px;
+      padding: 32px 0;
+      &-area {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 960px;
+        height: 900px;
+        background :url("../img/figure_comparison.svg") center no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        @include pc {
+          width: 96%;
+          height: 96%;
+        }
+        @include sp {
+          background: none;
+        }
+      }
+      &-box {
+        width: 50%;
+        @include sp {
+          width: 100%;
+          &:nth-child(1) {
+            order: 2;
+          }
+          &:nth-child(2) {
+            order: 1;
+          }
+          &:nth-child(3) {
+            order: 3;
+          }
+          &:nth-child(4) {
+            order: 4;
+          }
+        }
+        .content {
+          position: relative;
+          &.comparison_1 {
+            top: 85px;
+            left: 70px;
+            width: 394px;
+            height: 413px;
+            background :url("../img/figure_comparison_1.png") center no-repeat;
+            background-size: contain;
+            @include pc {
+              top: 48px;
+              left: 40px;
+              width: 360px;
+              height: 379px;
+            }
+            @include sp {
+              position: static;
+              width: 310px;
+              height: 326px;
+              margin: 0 auto;
+            }
+            span {
+              &.txt1 {
+                width: 170px;
+                position: absolute;
+                text-align: justify;
+                top: 80px;
+                left: 20px;
+                font-size: 15px;
+                @include pc {
+                  top: 64px;
+                }
+                @include sp {
+                  width: 160px;
+                  top: 54px;
+                  font-size: 14px;
+                  line-height: 1.4;
+                  letter-spacing: 1px;
+                  text-align: justify;
+                }
+              }
+              &.txt2 {
+                width: 170px;
+                position: absolute;
+                text-align: justify;
+                top: 290px;
+                left: 20px;
+                font-size: 15px;
+                @include pc {
+                  top: 250px;
+                }
+                @include sp {
+                  width: 160px;
+                  top: 220px;
+                  font-size: 14px;
+                  line-height: 1.4;
+                  letter-spacing: 1px;
+                  text-align: justify;
+                }
+              }
+              .red {
+                position: static;
+              }
+              &.btn1 {
+                position: absolute;
+                top: 26px;
+                left: 236px;
+                letter-spacing: 4px;
+                @include pc {
+                  top: 23px;
+                  left: 210px;
+                }
+                @media all and (-ms-high-contrast: none){
+                  top: 30px;
+                }
+                @include sp {
+                  top: 18px;
+                  left: 180px;
+                  letter-spacing: 2px;
+                }
+                a {
+                  display: block;
+                  font-size: 16px;
+                  font-weight: bold;
+                  &:after {
+                    content:"\f138";
+                    font-family:$faw;
+                    padding:0 0 0 4px;
+                    margin:0 0 0 0;
+                    color:#6a3314;
+                    position:relative;
+                  }
+                }
+              }
+              &.btn2 {
+                position: absolute;
+                top: 238px;
+                left: 236px;
+                letter-spacing: 4px;
+                @include pc {
+                  top: 217px;
+                  left: 210px;
+                }
+                @media all and (-ms-high-contrast: none){
+                  top: 242px;
+                }
+                @include sp {
+                  top: 186px;
+                  left: 180px;
+                  letter-spacing: 2px;
+                }
+                a {
+                  display: block;
+                  font-size: 16px;
+                  font-weight: bold;
+                  &:after {
+                    content:"\f138";
+                    font-family:$faw;
+                    padding:0 0 0 4px;
+                    margin:0 0 0 0;
+                    color:#6a3314;
+                    position:relative;
+                  }
+                }
+              }
+            }
+          }
+          &.comparison_2 {
+            top: -10px;
+            left: 60px;
+            width: 420px;
+            height: 497px;
+            background :url("../img/figure_comparison_2.png") center no-repeat;
+            background-size: contain;
+            @include pc {
+              top: -70px;
+              left: 10px;
+              width: 420px;
+              height: 497px;
+            }
+            @include sp {
+              position: static;
+              width: 310px;
+              height: 377px;
+              margin: 0 auto 0;
+              background :url("../img/figure_comparison_2_sp.png") center no-repeat;
+              background-size: contain;
+            }
+            span {
+              width: 270px;
+              position: absolute;
+              text-align: justify;
+              top: 294px;
+              left: 40px;
+              font-size: 15px;
+              @include sp {
+                top: 194px;
+                left: 20px;
+                font-size: 14px;
+                padding: 8px;
+                line-height: 1.4;
+              }
+              .red {
+                position: static;
+              }
+            }
+          }
+          &.comparison_3 {
+            top: 0px;
+            left: 70px;
+            width: 394px;
+            height: 270px;
+            @include pc {
+              top: -40px;
+              left: 32px;
+              width: 373px;
+              height: 249px;
+            }
+            @include sp {
+              position: static;
+              width: 310px;
+              height: 220px;
+              margin: 0 auto;
+            }
+            background :url("../img/figure_comparison_3.png") center no-repeat;
+            background-size: contain;
+            @media all and (-ms-high-contrast: none){
+              top: 5px;
+            }
+            span {
+              &.txt1 {
+                width: 180px;
+                position: absolute;
+                text-align: justify;
+                top: 80px;
+                left: 20px;
+                font-size: 15px;
+                @include pc {
+                  top: 70px;
+                  left: 24px;
+                }
+              }
+              &.btn1 {
+                position: absolute;
+                top: 28px;
+                left: 236px;
+                letter-spacing: 4px;
+                @include pc {
+                  top: 24px;
+                  left: 220px;
+                }
+                @media all and (-ms-high-contrast: none){
+                  top: 32px;
+                }
+                @include sp {
+                  top: 23px;
+                  left: 180px;
+                  letter-spacing: 2px;
+                }
+                a {
+                  display: block;
+                  font-size: 16px;
+                  font-weight: bold;
+                  &:after {
+                    content:"\f138";
+                    font-family:$faw;
+                    padding:0 0 0 4px;
+                    margin:0 0 0 0;
+                    color:#6a3314;
+                    position:relative;
+                  }
+                }
+              }
+            }
+          }
+          &.comparison_4 {
+            top: 0px;
+            left: 60px;
+            width: 394px;
+            height: 270px;
+            @include pc {
+              top: -40px;
+              left: 12px;
+              width: 373px;
+              height: 249px;
+            }
+            @include sp {
+              position: static;
+              width: 310px;
+              height: 220px;
+              margin: 0 auto;
+            }
+            background :url("../img/figure_comparison_4.png") center no-repeat;
+            background-size: contain;
+            span {
+              &.txt1 {
+                width: 210px;
+                position: absolute;
+                text-align: justify;
+                top: 80px;
+                left: 12px;
+                font-size: 15px;
+                @include pc {
+                  top: 70px;
+                  left: 18px;
+                }
+              }
+              &.btn1 {
+                position: absolute;
+                top: 28px;
+                left: 230px;
+                letter-spacing: 4px;
+                @include pc {
+                  top: 24px;
+                  left: 214px;
+                }
+                @media all and (-ms-high-contrast: none){
+                  top: 32px;
+                }
+                @include sp {
+                  top: 23px;
+                  left: 175px;
+                  letter-spacing: 2px;
+                }
+                a {
+                  display: block;
+                  font-size: 16px;
+                  font-weight: bold;
+                  &:after {
+                    content:"\f138";
+                    font-family:$faw;
+                    padding:0 0 0 4px;
+                    margin:0 0 0 0;
+                    color:#6a3314;
+                    position:relative;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    display: flex;
+    padding: 24px;
+    flex-wrap: wrap;
+    @include pc {
+      padding: 24px 16px;
+    }
+    &-l, &-r {
+      width: 50%;
+      padding: 24px;
+      @include pc {
+        width: 100%;
+        padding: 8px;
+      }
+      &-cap {
+        display: block;
+        img {
+          height: 60px;
+          @include sp {
+            max-height: 30px;
+          }
+        }
+      }
+    }
+    &-l {
+      &-figure {
+        padding: 24px 0 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &-r {
+      &-disp {
+        padding: 24px 0 0;
+        @include sp {
+          padding: 8px 0 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+cover
+----------------------------------------------------------------------------*/
+.cover {
+  background :url("../img/bg.png") repeat;
+  background-size: 10px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  @include sp {
+    background :url("../img/bg.png") repeat;
+    background-size: 5px;
+    height: auto;
+  }
+  &-wrap {
+    height: 800px;
+    background : url("../img/main_img.png") center 160px no-repeat;
+    background-size: 740px;
+    @media screen and (max-height: 660px) {
+      height: 640px;
+      background : url("../img/main_img.png") center 140px no-repeat;
+      background-size: 600px;
+    }
+    @include sp {
+      height: 450px;
+      background : url("../img/main_img.png") center 120px no-repeat;
+      background-size: 370px;
+    }
+  }
+  &-copy {
+    width: 620px;
+    margin: 0 auto;
+    position:relative;
+    top: 50px;
+    img {
+      width: 100%;
+    }
+    @media screen and (max-height: 660px) {
+      width: 500px;
+      top: 36px;
+    }
+    @include sp {
+      width: 96%;
+      top: 10%;
+    }
+  }
+  .nami {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: -100px;
+    z-index: 0;
+    @include pc {
+      margin-top: -100px;
+      bottom: -70px;
+    }
+    @include sp {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+page-6
+----------------------------------------------------------------------------*/
+.page-6 {
+  position:relative;
+  z-index: 0;
+  padding-bottom: 60px;
+  background:$w0 url("../img/alfawave/column_bg.png") right 16px top 0 no-repeat;
+  background-size: 500px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  @media screen and (max-width: 1380px) {
+    background:$w0 url("../img/alfawave/column_bg.png") right 16px top 0 no-repeat;
+    background-size: 400px;
+  }
+  @include sp {
+    background:$w0 url("../img/alfawave/column_bg.png") center top 100px no-repeat;
+    background-size: 400px;
+  }
+  &-tag {
+    width: 231px;
+    margin: 0 auto;
+    padding: 0;
+    img {
+      width: 100%;
+    }
+    @include sp {
+      width: 180px;
+    }
+  }
+  &-wrap {
+    padding: 40px 0 0;
+    @include pc {
+      padding: 40px 16px 0;
+    }
+    @include sp {
+      padding: 280px 0 0;
+    }
+    &-title{
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      .column {
+        &-cap {
+          position: absolute;
+          top: -48px;
+          left: -64px;
+          width: 160px;
+          img {
+            width: 100%;
+          }
+          @include sp {
+            top: -48px;
+            left: 0;
+            width: 140px;
+          }
+        }
+        &-1st {
+          background: #ed798e;
+          color: $w0;
+          text-align: center;
+          margin: 0 auto 56px;
+          display: inline-block;
+          font-weight: bold;
+          font-size: 18px;
+          letter-spacing: 2px;
+          padding: 4px 8px;
+          @include sp {
+            width: 90%;
+            font-size: 16px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            margin: 0 auto 56px;
+          }
+        }
+      }
+      h2 {
+        position: relative;
+        margin: 16px auto 0;
+        width: 554px;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+        @include sp {
+          width: 280px;
+        }
+      }
+      blockquote {
+        padding: 8px;
+        text-align: center;
+        @include sp {
+          width: 96%;
+          font-size: 12px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .text {
+      padding: 56px 88px 40px 64px;
+      @include pc {
+        padding: 32px 24px 24px;
+      }
+      @include sp {
+        padding: 32px 24px 24px;
+      }
+      &-box {
+        position: relative;
+        h3 {
+          font-size: 22px;
+          margin-bottom: 8px;
+          color: $b1;
+          letter-spacing: 2px;
+          font-weight: bold;
+          text-align: justify;
+          b {
+            color: #e8456c;
+            font-size: 120%;
+          }
+          @include sp {
+            font-size: 18px;
+            letter-spacing: 1px;
+          }
+        }
+        p {
+          line-height: 1.8;
+          letter-spacing: 2px;
+          text-align: justify;
+          margin-bottom: 32px;
+          font-size: 16px;
+          @include sp {
+            font-size: 14px;
+            letter-spacing: 1px;
+          }
+          &.txt1 {
+            width: 100%;
+          }
+          &.txt2 {
+            width: 100%;
+          }
+          .marker {
+            background: -webkit-linear-gradient(transparent 50%, #ffdce3 50%);
+            background: -o-linear-gradient(transparent 50%, #ffdce3 50%);
+            background: linear-gradient(transparent 50%, #ffdce3 50%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.illust-box {
+  position: absolute;
+  &.pos3 {
+    position: static;
+    float:right;
+    width: 700px;
+    margin: 0 0 24px 24px;
+    @include pc {
+      width: 100%;
+      margin: 24px auto 0;
+    }
+    @include sp {
+      width: 100%;
+      margin: 16px auto;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  &.pos4 {
+    position: static;
+    float:right;
+    width: 280px;
+    margin: 0 0 24px 24px;
+    @include sp {
+      width: 100%;
+      margin: 0 auto 16px;
+    }
+    img {
+      width: 100%;
+      @include sp {
+        width: 80%;
+        margin: 0 10%;
+      }
+    }
+  }
+  &.pos5 {
+    position: static;
+    float:left;
+    width: 400px;
+    margin: 0 24px 24px 0;
+    img {
+      width: 100%;
+    }
+    @include sp {
+      width: 100%;
+    }
+  }
+}
+
+.page-6-doc {
+  width: 50%;
+  display: flex;
+  border: 1px solid #eee;
+  padding: 16px 16px 10px 16px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  @include pc {
+    width: 80%;
+  }
+  @include sp {
+    width: 90%;
+  }
+  &-photo {
+    margin-right: 16px;
+    width: 200px;
+    img {
+      width: 100%;
+    }
+  }
+  &-disp {
+    margin-bottom: 8px;
+  }
+  &-name {
+    display: flex;
+    &-l, &-r {
+      text-align: center;
+      margin-right: 8px;
+      small {
+        font-size: 12px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    &:after {
+      content: 'さん';
+      font-size: 14px;
+      position: relative;
+      top: 25px;
+    }
+  }
+  &-prof {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+}

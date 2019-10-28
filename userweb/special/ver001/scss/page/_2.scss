@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------
+page-2
+----------------------------------------------------------------------------*/
+.page-2 {
+  position:relative;
+  z-index: 0;
+  background: $w0;
+  padding-bottom: 60px;
+  @include sp {
+    padding-top: 0;
+  }
+  &-title {
+    -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    background : url("../img/page-2-tate-bg.png") center top no-repeat;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 8px 8px 8px;
+    position: absolute;
+    top: -80px;
+    right: 16px;
+    border-radius: 16px 0 0 16px;
+    @include pc {
+      top: -50px;
+    }
+    @include sp {
+      -webkit-writing-mode:horizontal-tb;
+      -ms-writing-mode:lr-tb;
+      writing-mode:horizontal-tb;
+      position: static;
+      width: 100%;
+      background : url("../img/page-2-tate-bg.png") center top repeat;
+      background-size: 100%;
+      border-radius:0;
+      font-size: 14px;
+      padding: 12px;
+      font-weight: bold;
+      text-align: justify;
+    }
+  }
+  &-wrap {
+    margin: 64px auto 0;
+    padding: 0 0 0 0;
+    @include sp {
+      margin: 48px auto 0;
+    }
+    h2 {
+      margin: 0 auto;
+      width: 991px;
+      text-align: center;
+      @include pc {
+        width: 600px;
+      }
+
+      @include sp {
+        width: 270px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    blockquote {
+      padding: 8px;
+      text-align: center;
+      @include pc {
+        width: 600px;
+        margin: 0 auto;
+      }
+      @include sp {
+        width: 96%;
+        font-size: 12px;
+      }
+    }
+    .text {
+      padding: 56px 88px 40px 64px;
+      @include pc {
+        padding: 32px 88px 24px 64px;
+      }
+      @include sp {
+        padding: 32px 24px 24px;
+      }
+      &-box {
+        position: relative;
+        h3 {
+          font-size: 22px;
+          margin-bottom: 8px;
+          color: #ea5504;
+          letter-spacing: 2px;
+          font-weight: bold;
+          text-align: justify;
+          @include sp {
+            font-size: 18px;
+            letter-spacing: 1px;
+          }
+        }
+        p {
+          line-height: 1.8;
+          letter-spacing: 2px;
+          text-align: justify;
+          margin-bottom: 32px;
+          font-size: 16px;
+          @include sp {
+            font-size: 14px;
+            letter-spacing: 1px;
+          }
+          &.txt1 {
+            width: 43%;
+            @include pc {
+              width: 100%;
+            }
+          }
+          &.txt2 {
+            width: 80%;
+            @include pc {
+              width: 100%;
+            }
+          }
+          &.txt3 {
+            .adjust {
+              @include pc {
+                width: 84%;
+                display: block;
+              }
+              @include sp {
+                width: 100%;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.illust-box {
+  position: absolute;
+  &.pos1 {
+    width: 660px;
+    top: 10px;
+    right: -8px;
+    img {
+      width: 100%;
+    }
+    @include pc {
+      position: static!important;
+      display: block;
+      margin-bottom: 24px;
+    }
+    @include sp {
+      width: 100%;
+    }
+  }
+  &.pos2 {
+    width: 210px;
+    top: 50px;
+    right: 3px;
+    @include pc {
+      width: 160px;
+      top: 300px;
+      right: -70px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.page-2-doc {
+  width: 60%;
+  display: flex;
+  border: 1px solid #eee;
+  padding: 16px 16px 10px 16px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 8px;
+  @include pc {
+    width: 80%;
+  }
+  @include sp {
+    width: 90%;
+  }
+  &-photo {
+    margin-right: 16px;
+    width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+  &-disp {
+    margin-bottom: 8px;
+  }
+  &-name {
+    display: flex;
+    &-l, &-r {
+      text-align: center;
+      margin-right: 8px;
+      small {
+        font-size: 12px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+    &:after {
+      content: '先生';
+      font-size: 14px;
+      position: relative;
+      top: 25px;
+    }
+  }
+  &-prof {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+}
