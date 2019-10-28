@@ -2,22 +2,27 @@
   <!--PC用-->
   <div class="kiji_prof_area spnone">
     <div class="kiji_prof_disp">
-      <span>森山靖子</span><small>（もりやま・やすこ）</small>さん<br>
+      <span>佐藤稔子</span>
+      <small>（さとう・としこ）</small>先生<br>
       <br>
-      大人になって発症した食物アレルギーがきっかけでオーガニックと出合う。1997年に日本で初めて設立された「日本オーガニック検査員協会（JOIA）」の事務局の手伝いをしながら、オーガニック検査員の資格を取得。約15年にわたって、農場、加工食品の工場、メーカー、輸入業者などに出向き、年間50社の検査を任されているオーガニックのプロフェッショナル。最近では、農業で障がい者の就労を支援する「農福連携」にも携わっています。
+      <b>薬剤師・漢方的生活アドバイザー</b><br>
+      薬剤師資格取得後、化学メーカーの研究部門に勤務。1994年に東京都三鷹市にて漢方薬専門の「廣寿堂（こうじゅどう）薬局」を開店し現在に至る。<br>
+      ホームページ：<a href="http://www.kouju.jp" target="_blank">http://www.kouju.jp</a>
     </div>
     <div class="kiji_prof_img">
-      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1910TOKU/prof.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1907TOKU/prof.png">
     </div>
   </div>
 
   <!--スマホ用-->
   <div class="kiji_prof_area pcnone">
-    <span>森山靖子</span><small>（もりやま・やすこ）</small>さん<br>
+    <span>佐藤稔子</span><small>（さとう・としこ）</small>先生<br>
     <br>
-    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1910TOKU/prof.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1907TOKU/prof.png">
     <br>
     <br>
-    大人になって発症した食物アレルギーがきっかけでオーガニックと出合う。1997年に日本で初めて設立された「日本オーガニック検査員協会（JOIA）」の事務局の手伝いをしながら、オーガニック検査員の資格を取得。約15年にわたって、農場、加工食品の工場、メーカー、輸入業者などに出向き、年間50社の検査を任されているオーガニックのプロフェッショナル。最近では、農業で障がい者の就労を支援する「農福連携」にも携わっています。
+    <b>薬剤師・漢方的生活アドバイザー</b><br>
+    薬剤師資格取得後、化学メーカーの研究部門に勤務。1994年に東京都三鷹市にて漢方薬専門の「廣寿堂（こうじゅどう）薬局」を開店し現在に至る。<br>
+    ホームページ：<a href="http://www.kouju.jp" target="_blank">http://www.kouju.jp</a>
   </div>
 </div>

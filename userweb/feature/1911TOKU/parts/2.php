@@ -47,7 +47,7 @@ s { text-decoration: none; display: inline; border-bottom: 3px solid #32a83b; li
 .intoroduction {text-align: left; margin: -20px 1% 60px; width: 98%; position: relative; padding: 2.5% 2% 2%; background: rgba(255, 255, 255, 0.9); color: #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); -webkit-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); display: block; overflow: hidden;}
 
 h3.article_detail_contents_box__title { color: #834d00 !important; font-weight: bold; font-size: 140%; border: none !important; margin: 0 0 0 0;}
-h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1910TOKU/h2_before.png') no-repeat; background-size:contain;}
+h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('<?php echo $Path ?>h2_before.png') no-repeat; background-size:contain;}
 
 span.item_detail_feature_title,
 h3.article_detail_contents_box__title {color:#834d00 !important;}
@@ -131,20 +131,19 @@ h3.article_detail_contents_box__title {color:#834d00 !important;}
 </style>
 
 
-<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1910TOKU/title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
-<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1910TOKU/title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
+<img src="<?php echo $Path ?>title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
+<img src="<?php echo $Path ?>title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
 
 <div class="article_detail_text">
-  <p>　「よい日々」で好評連載中の「オーガニック基本のき」の拡大版として、「環境」をテーマにオーガニック検査員・森山靖子さんにお話しをお聞きしました。</p>
+  <p>　今月号では、寒さや冷えが老化を招くと言われる理由と、若々しさを維持するための冬の養生法について、東洋医学の専門家である薬剤師の佐藤稔子（としこ）先生に教えていただきます。</p>
 </div>
 
 <div class="article_detail_mokuji">
   <p><img src="//d2mxjn1ymx4y84.cloudfront.net/client_info/FLORAHOUSE01/itemimage/1811OGAT/yomimono_mokuji.png" alt=""></p>
   <ul>
-    <a href="#toku-ttl1"><li>農業は一万年以上前から、環境に負荷をかけ続けている</li></a>
-    <a href="#toku-ttl2"><li>オーガニックの本来の目的は、環境保護</li></a>
-    <a href="#toku-ttl3"><li>有機がもたらす生物の多様性</li></a>
-    <a href="#toku-ttl4"><li>一人ひとりの行動が環境を守る一歩になる</li></a>
-    <a href="#toku-ttl5"><li>森山靖子（もりやま・やすこ）さん</li></a>
+    <a href="#toku-ttl1"><li>なぜ冬に老化するのか</li></a>
+    <a href="#toku-ttl2"><li>「腎」は骨・髪・歯・脳の老化に大きく関わっている</li></a>
+    <a href="#toku-ttl3"><li>春への備え。「腎精」をムダに消耗させない</li></a>
+    <a href="#toku-ttl5"><li>佐藤稔子（さとう・としこ）先生</li></a>
   </ul>
 </div>
