@@ -42,8 +42,10 @@
 .lr2 .camp_contents_l { display: block; overflow: hidden; float: left; margin: 0 0 0 0; padding: 0 0 0 0; width: 46%;}
 .lr2 .camp_contents_r { display: block; overflow: hidden; float: right; margin: 0 0 0 0; padding: 0 0 0 0; width: 46%;}
 
-.camp_contents_etc { display: block; overflow: hidden; margin: 0 0 40px 0; padding: 0; clear: both; border-radius: 16px; background: #fff; border: 8px solid #262E9B; position: relative;}
-.camp_contents_etc .camp_contents_r { padding: 200px 0 0;}
+.camp_contents_etc { display: block; overflow: hidden; margin: 0 0 40px 0; padding: 0 0 0 0; clear: both; border-radius: 16px; background: #fff; border: 8px solid #262E9B; position: relative;}
+.camp_contents_etc .camp_contents_r { padding: 0 0 0;}
+.camp_contents_etc .camp_contents_r blockquote b { font-size: 20px; color: #116845; display: inline-block; border-radius: 50px; padding: 2px 16px; background: #E8F1C9; margin: 0 0 8px 0;}
+.camp_contents_etc .camp_contents_r blockquote { font-size: 16px; line-height: 1.6;}
 .camp_contents_etc .camp_item_detail_top_cart_title {border-top: 4px solid #262E9B;}
 
 .camp_contents_w { clear: both; display: block; position: relative; top: 20px; right: 0; margin: 0 0 0 0;}
@@ -112,7 +114,8 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
 	.camp_item_detail_top_cart_title small {font-size: 70%;}
 
 	.camp_contents_etc { display: block; overflow: hidden; margin: 0 0 40px 0; padding: 0 0 0; clear: both; border-radius: 16px;}
-	.camp_contents_etc .camp_contents_r { padding: 0 16px 0;}
+  .camp_contents_etc .camp_contents_l { padding: 16px 16px 0;}
+  .camp_contents_etc .camp_contents_r { padding: 0 16px 0;}
   .camp_contents_etc .camp_item_detail_top_cart_title {width: 100%!important;}
 
 	.camp_title_top_rubi { background: #7f4c42; display: block; padding: 8px 16px 4px; text-align: center; margin: 0 16px 0; border-radius: 4px; color: #fff; font-weight: bold;}
@@ -271,7 +274,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
 				<div class="camp_head">
 					<div class="camp_title_area">
 						<p class="camp_title typ2">
-							<span>寒いとひどくなるふしぶしの違和感に。</span>
+							<span>質のよい油のパワーで冬を乗り切る！</span>
 						</p>
 					</div>
 				</div>
@@ -406,11 +409,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   					<a href="https://yoihibi.jp/item/RELAXES.html" target="_blank">
   					<img src="<?php echo $Path ?>stock7.png"></a>
   				</div>
-  			</div>
-  		</div>
-  		<div class="camp_contents_r">
-  			<div class="camp_contents_box">
-  				<div class="camp_item_detail_top_cart">
+          <div class="camp_item_detail_top_cart">
   					<div class="camp_item_detail_top_cart_title">
               リラックスエッセンス
               <span class="camp_stock_img_amount">500ml</span>
@@ -418,6 +417,18 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   					<a href="https://yoihibi.jp/item/RELAXES.html" target="_blank">
   						<img src="//dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/view/userweb/images/common/parts/icon_cart_w.png?timestamp=1529631824000">
   					<p>この商品を購入する</p></a>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="camp_contents_r">
+  			<div class="camp_contents_box">
+          <div class="camp_head">
+  					<blockquote>
+              <b>6種のやすらぎハーブ</b><br>自社農場や世界各地の契約農場で栽培された、ストレスや不安をやわらげ、気持ちを落ち着かせる6種のオーガニック・ハーブを厳選。原材料はすべて植物性、非遺伝子組み換え植物で、ベジタリアン、ビーガンの方にもおすすめです。
+  					</blockquote>
+            <p class="camp_middle_img">
+              <img src="<?php echo $Path ?>stock7_2.png">
+            </p>
   				</div>
   			</div>
   		</div>
