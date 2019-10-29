@@ -62,8 +62,8 @@
 
 .camp_title {font-size: 24px; color: #452100; line-height: 1.4; padding: 16px 24px 16px 88px; margin: 0 0; text-align: justify; background: #EFEEDC; box-sizing: border-box; border-radius: 8px; font-weight: bold; position: relative;}
 .camp_title::before { content: ''; width: 132px; height: 105px; position: absolute; top: -24px; left: -24px;}
-.camp_title.typ1::before {background: url('<?php echo $Path ?>ttl_bfr_1.png') no-repeat; background-size:contain;}
-.camp_title.typ2::before {background: url('<?php echo $Path ?>ttl_bfr_2.png') no-repeat; background-size:contain;}
+.camp_title.typ1::before {background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/ttl_bfr_1.png') no-repeat; background-size:contain;}
+.camp_title.typ2::before {background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/ttl_bfr_2.png') no-repeat; background-size:contain;}
 .camp_title_bottom {font-size: 24px; color: #fff; line-height: 1.4; padding: 16px 24px; margin: 0 0; text-align: justify; background: #222E8E; box-sizing: border-box;}
 blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font-size: 18px;}
 .camp_title_img {width: 68px; height: 68px; display: block; overflow: hidden; float: left; margin:16px 10px 0 20px;}
@@ -150,8 +150,8 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
 }
 </style>
 
-<img src="<?php echo $Path ?>main_pc.jpg" width="100%" style="margin: 0 0 10px 0;" class="spnone">
-<img src="<?php echo $Path ?>main_sp.jpg" width="100%" style="margin: 0 0 0 0;" class="pcnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/main_pc.jpg" width="100%" style="margin: 0 0 10px 0;" class="spnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/main_sp.jpg" width="100%" style="margin: 0 0 0 0;" class="pcnone">
 <br>
 
 <div id="camp" class="camp_1910">
@@ -177,10 +177,10 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
   				<div class="camp_stock_img">
   					<a href="https://yoihibi.jp/item/VEGESI.html" target="_blank">
-              <img src="<?php echo $Path ?>stock1.png">
+              <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock1.png">
             </a>
             <p class="camp_middle_img">
-              <img src="<?php echo $Path ?>stock1_2.png">
+              <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock1_2.png">
             </p>
   				</div>
           <div class="camp_item_detail_top_cart">
@@ -198,7 +198,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
           <div class="camp_middle">
   					<p class="camp_middle_img">
-              <img src="<?php echo $Path ?>w2_s.png">
+              <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/w2_s.png">
             </p>
   				</div>
   			</div>
@@ -228,11 +228,11 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   		<div class="camp_contents_l">
   			<div class="camp_contents_box">
           <div class="camp_stock_middle">
-            <img src="<?php echo $Path ?>ttls_1.png">
+            <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/ttls_1.png">
   				</div>
   				<div class="camp_stock_img">
             <a href="https://yoihibi.jp/item/MSMPOW.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock2.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock2.png"></a>
   				</div>
           <div class="camp_item_detail_top_cart">
   					<div class="camp_item_detail_top_cart_title">
@@ -248,11 +248,11 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   		<div class="camp_contents_r">
         <div class="camp_contents_box">
           <div class="camp_stock_middle">
-            <img src="<?php echo $Path ?>ttls_2.png">
+            <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/ttls_2.png">
   				</div>
   				<div class="camp_stock_img">
             <a href="https://yoihibi.jp/item/MSMCRM.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock3.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock3.png"></a>
   				</div>
           <div class="camp_item_detail_top_cart">
   					<div class="camp_item_detail_top_cart_title">
@@ -285,7 +285,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
   				<div class="camp_stock_img">
   					<a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock4.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock4.png"></a>
   				</div>
   			</div>
   		</div>
@@ -328,7 +328,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
   				<div class="camp_stock_img">
   					<a href="https://yoihibi.jp/item/SUNMAT.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock5.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock5.png"></a>
   				</div>
   			</div>
   		</div>
@@ -365,7 +365,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
   				<div class="camp_stock_img">
   					<a href="https://yoihibi.jp/item/SUNMAT.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock6.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock6.png"></a>
   				</div>
   			</div>
   		</div>
@@ -407,7 +407,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
   			<div class="camp_contents_box">
   				<div class="camp_stock_img">
   					<a href="https://yoihibi.jp/item/RELAXES.html" target="_blank">
-  					<img src="<?php echo $Path ?>stock7.png"></a>
+  					<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock7.png"></a>
   				</div>
           <div class="camp_item_detail_top_cart">
   					<div class="camp_item_detail_top_cart_title">
@@ -427,7 +427,7 @@ blockquote {line-height: 1.8; padding: 16px 24px 24px; text-align: justify; font
               <b>6種のやすらぎハーブ</b><br>自社農場や世界各地の契約農場で栽培された、ストレスや不安をやわらげ、気持ちを落ち着かせる6種のオーガニック・ハーブを厳選。原材料はすべて植物性、非遺伝子組み換え植物で、ベジタリアン、ビーガンの方にもおすすめです。
   					</blockquote>
             <p class="camp_middle_img">
-              <img src="<?php echo $Path ?>stock7_2.png">
+              <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911CAMP/stock7_2.png">
             </p>
   				</div>
   			</div>

@@ -68,7 +68,7 @@
 		</li>
 
 		<li class="image_ver">
-			<div class="ima_box"><img src="<?php echo $Path ?>img1.png" alt=""></div>
+			<div class="ima_box"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911TOKU/img1.png" alt=""></div>
 			<p><b>東洋医学の基礎理論「五行説」の相関図</b><br>自然界の万物は、木、火、土、金、水の5つの要素が循環し成り立っているというもの。それぞれがバランスを保ちながら巡っていると考えられている。<br>五行の５つの要素は臓器（五臓）、五臓と対になり補っている臓器、感覚器官、組織、季節、色など、さまざまなものにも当てはめられる。<br><br></p>
 		</li>
 
@@ -98,9 +98,15 @@
 </div>
 
 <div class="feature_summary_stuff">
-	<div class="staff"><img src="<?php echo $Path ?>takemura.png"></div>
+	<div class="staff"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911TOKU/takemura.png"></div>
 	<p><span>「冷えは万病のもと」と昔から言われていますが、東洋医学の考え方では、老化の原因にもなるそうです。今年の冬からは、冷えを放置せずに、からだの中から温める養生法で若々しく元気にお過ごしください。（よい日々編集 竹村）</span></p>
 </div>
+
+<br>
+<br>
+<b>佐藤先生ご登場のこちらの号も合わせてお読みください！</b><br>
+【読みもの】風邪から守る春の養生：<a href="https://yoihibi.jp/item/1902TOKU.html" target="_blank">https://yoihibi.jp/item/1902TOKU.html</a><br>
+【読みもの】熱と湿から守る夏の養生：<a href="https://yoihibi.jp/item/1907TOKU.html" target="_blank">https://yoihibi.jp/item/1907TOKU.html</a>
 
 			</p>
 		</li>

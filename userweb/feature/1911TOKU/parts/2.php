@@ -47,7 +47,7 @@ s { text-decoration: none; display: inline; border-bottom: 3px solid #32a83b; li
 .intoroduction {text-align: left; margin: -20px 1% 60px; width: 98%; position: relative; padding: 2.5% 2% 2%; background: rgba(255, 255, 255, 0.9); color: #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); -webkit-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); display: block; overflow: hidden;}
 
 h3.article_detail_contents_box__title { color: #834d00 !important; font-weight: bold; font-size: 140%; border: none !important; margin: 0 0 0 0;}
-h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('<?php echo $Path ?>h2_before.png') no-repeat; background-size:contain;}
+h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911TOKU/h2_before.png') no-repeat; background-size:contain;}
 
 span.item_detail_feature_title,
 h3.article_detail_contents_box__title {color:#834d00 !important;}
@@ -131,8 +131,8 @@ h3.article_detail_contents_box__title {color:#834d00 !important;}
 </style>
 
 
-<img src="<?php echo $Path ?>title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
-<img src="<?php echo $Path ?>title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911TOKU/title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1911TOKU/title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
 
 <div class="article_detail_text">
   <p>　今月号では、寒さや冷えが老化を招くと言われる理由と、若々しさを維持するための冬の養生法について、東洋医学の専門家である薬剤師の佐藤稔子（としこ）先生に教えていただきます。</p>
