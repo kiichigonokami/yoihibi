@@ -1,11 +1,21 @@
+<!-- 商品詳細自由項目２ -->
 <style>
-
-@media screen and (max-width: 767px) {
-}
+  .spnone {display:block!important;}
+  .pcnone {display:none!important;}
+  .marker {
+    background: -webkit-linear-gradient(transparent 90%, rgba(248, 184, 86, 0.9) 10%);
+    background: -o-linear-gradient(transparent 90%, rgba(248, 184, 86, 0.9) 10%);
+    background: linear-gradient(rgba(0, 0, 0, 0) 90%, rgba(248, 184, 86, 0.9) 10%);
+  }
+  .fl-box {display: flex; flex-wrap: wrap; justify-content: space-around; box-sizing: border-box;}
+  @media screen and (max-width: 767px) {
+    .spnone {display:none!important;}
+    .pcnone {display:block!important;}
+  }
 </style>
 
 <div class="item_detail_section_wrap2">
-  <h2 class="ttl_flower">すこやかに休んで、思考力も回復！ </h2>
+  <h2 class="ttl_flower"></h2>
   <div class="l_columns_w item_detail_sub_box">
     <div class="item_detail_section">
 
