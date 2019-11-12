@@ -1,68 +1,368 @@
-<div class="recipe_area">
-<div class="recipe_disp">
-ほくほくして甘みの強い西洋かぼちゃに、食感の変化をつけるためにシャキシャキとしたれんこんを加えました。温かいうちにいただくと、かぼちゃのやさしい甘みがおいしいですが、冷蔵庫で冷やすとれんこんの食感をより感じていただけます。多めに作っていろいろな味わいをお楽しみください。
-</div>
-<p class="recipe_cap">
-  <img src="http://demo.aladdinec.jp/client_info/FLORAHOUSE01/column/recipe/recipe_cap_1.png">
-</p>
-<div class="recipe_box" style="text-align:left;">
-かぼちゃ …… ２５０ｇ<br>
-れんこん …… ５０ｇ<br>
-<br>
-［玉ねぎドレッシング］<br>
-　┌ 玉ねぎ（紫または普通） …… ３０ｇ<br>
-　｜<a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 大さじ３<br>
-Ａ｜<a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a> …… 大さじ２<br>
-　｜<a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 小さじ１<br>
-　｜塩 …… 小さじ1/3<br>
-　└こしょう …… 少々<br>
-<br>
-</div>
-<p class="recipe_cap">
-  <img src="http://demo.aladdinec.jp/client_info/FLORAHOUSE01/column/recipe/recipe_cap_2.png">
-</p>
-<div class="recipe_box">
-<b>&#10102;</b>かぼちゃは種などをとり、2㎝角に切る。鍋に入れ、ひたひたの水を加え、ふたをして中火から弱火で7〜10分、やわらかくなるまで蒸し煮にする。やわらかくなったら火を強めて水分をとばす。ボウルなどに移して、熱いうちに粗く潰しておく（電子レンジ５００ｗで７〜８分加熱してもよい）。<br>
-<br>
-<b>&#10103;</b>れんこんは皮をむき、薄いいちょう切りにして水にさらし、ザルにとり水気をきる。沸騰した湯に酢（分量外：小さじ１）を加え、れんこんが少し透き通るまで茹で、ザルにとり粗熱をとっておく。<br>
-<br>
-<b>&#10104;</b>みじん切りにした玉ねぎをＡに加え、よく混ぜ合わせる。<br>
-<br>
-<b>&#10105;</b><b>&#10102;</b>に<b>&#10103;</b>を加え、<b>&#10104;</b>で作った玉ねぎドレッシングで和える。
-</div>
-<p class="recipe_cap">
-  <img src="http://demo.aladdinec.jp/client_info/FLORAHOUSE01/column/recipe/recipe_cap_3.png">
-</p>
-<div class="recipe_box">
-現在出回っているかぼちゃの多くは、西洋かぼちゃの一種の栗かぼちゃです。重くて硬い、切り口の色が濃い、種がふっくらとしているものを選びましょう。
-</div>
-</div>
+<!--★削除禁止★ 新・旬の元気レシピ-->
+<style>
+    .spnone {
+        display: block !important;
+    }
 
+    .pcnone {
+        display: none !important;
+    }
+
+    .article_detail_contents {
+        position: relative;
+    }
+
+    .item_list_wrap_camp_posi {
+        display: block;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .recipe_title {
+        font-size: 30px;
+        font-weight: bold;
+        color: #53a952;
+        clear: both;
+        overflow: hidden;
+        display: block;
+    }
+
+    .recipe_area {
+        width: 500px;
+        overflow: hidden;
+        display: block;
+        margin: 0 0 0 40px;
+        clear: both;
+    }
+
+    .recipe_disp {
+        padding: 0 0 0 0;
+        margin: 0 0 30px 0;
+        overflow: hidden;
+        display: block;
+    }
+
+    .recipe_cap {
+        padding: 0 0 0 0 !important;
+        margin: 0 0 5px 0 !important;
+        overflow: hidden;
+        display: block;
+    }
+
+    .recipe_in_cap {
+        padding: 2px 10px !important;
+        margin: 10px 0 5px !important;
+        overflow: hidden;
+        display: inline-block;
+        color: #fff;
+        background: #92ce91;
+        border-radius: 20px;
+    }
+
+    .recipe_box {
+        padding: 0 0 0 0 !important;
+        margin: 0 0 30px 0;
+        clear: both;
+    }
+
+    .recipe_box b {
+        font-weight: bold;
+        color: #53a952;
+        font-size: 120%;
+    }
+
+    .recipe_prof_area {
+        padding: 20px;
+        line-height: 1.8;
+        display: block;
+        overflow: hidden;
+        clear: both;
+    }
+
+    .recipe_prof_disp {
+        padding: 0 20px 0 0;
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 75%;
+    }
+
+    .recipe_prof_disp b {
+        font-size: 140%;
+    }
+
+    .recipe_prof_disp span {
+        font-size: 140%;
+    }
+
+    .recipe_prof_img {
+        padding: 0;
+        display: block;
+        overflow: hidden;
+        float: right;
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .recipe_prof_img img {
+        width: 80%;
+        margin: 0 0 0 20%;
+        text-align: center;
+    }
+
+    .recipe_box a {
+        color: #53a952 !important;
+    }
+
+    .recipe_box a:hover {
+        color: #6A6A6A !important;
+    }
+
+    .camp_stock_area {
+        box-sizing: border-box;
+        width: 960px;
+        clear: both;
+        display: block;
+        margin: 20px 0 0 0;
+        padding: 10px;
+        background: #E9EDDA;
+        border: 1px solid #ddd;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .camp_stock {
+        width: 25%;
+        float: left;
+    }
+
+    .camp_stock_img {
+        border: 1px solid #ddd;
+        width: 90%;
+        margin: 10px auto 0;
+        height: 180px;
+        display: block;
+        overflow: hidden;
+        text-align: center;
+        background: #fff;
+    }
+
+    .camp_stock_img img {
+        width: auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .camp_stock_txt {
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 0;
+        padding: 10px 0;
+        width: 85%;
+        font-size: 14px;
+        color: #306B50;
+        font-weight: bold;
+        text-align: justify;
+    }
+
+    .camp_stock a:hover {
+        opacity: 0.6;
+    }
+
+    @media screen and (max-width: 767px) {
+        .spnone {
+            display: none !important;
+        }
+
+        .pcnone {
+            display: block !important;
+        }
+
+        .item_list_wrap_camp_posi {
+            border-top: 1px solid #358669;
+            margin: 20px 0 0 0;
+            position: inherit;
+            bottom: inherit;
+            left: inherit;
+        }
+
+        .item_list_box {
+            clear: both;
+            display: block;
+            overflow: hidden;
+            padding-bottom: 16px
+        }
+
+        .item_list_box .img_box {
+            margin-right: 16px;
+        }
+
+        .recipe_area {
+            width: 100%;
+            margin: 0 0 0 0;
+        }
+
+        .recipe_title {
+            font-size: 20px;
+        }
+
+        .recipe_prof_disp {
+            float: none;
+            width: 100%;
+            margin-bottom: 0;
+        }
+
+        .recipe_prof_disp b {
+            font-size: 110%;
+        }
+
+        .recipe_prof_disp span {
+            font-size: 110%;
+        }
+
+        .recipe_prof_img {
+            float: none;
+            margin: 0 auto 20px;
+            width: 60%;
+        }
+
+        .recipe_prof_img img {
+            width: 100%;
+            text-align: center;
+        }
+
+        .camp_stock_area {
+            width: 100%;
+        }
+
+        .camp_stock {
+            width: 50%;
+        }
+
+        .camp_stock_img {
+            height: 100px;
+        }
+
+        .camp_stock_txt {
+            font-size: 12px;
+            padding: 0 0 10px 0;
+            height: 2.5em;
+        }
+
+        .article_detail_text {
+            display: block;
+            margin: 16px 0 0 0;
+        }
+
+        .article_detail_mokuji {
+            margin: 0 0 100px;
+        }
+
+        .article_detail_mokuji p img {
+            width: 100%;
+            margin: 40px 0;
+        }
+
+        .article_detail_mokuji ul {
+            margin: 0 0 0 30px;
+            display: block;
+        }
+
+        .article_detail_mokuji ul li {
+            color: #348669;
+            text-decoration: underline;
+            font-weight: bold;
+            margin: 0 0 20px;
+        }
+
+        .article_detail_mokuji ul li {
+            list-style-type: none;
+        }
+
+        .article_detail_mokuji ul li::before {
+            position: relative;
+            top: -2px;
+            left: -18px;
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            content: '';
+            border-radius: 100%;
+            background: #348669;
+        }
+    }
+</style>
+<!--★削除禁止★ 新・旬の元気レシピ-->
+<div class="recipe_title">松の実のつくね</div>
+
+
+
+
+<div class="recipe_area">
+    <div class="recipe_disp">
+        表面に松の実をたっぷりつけて焼いた変わりつくねです。あっさりした鶏肉のつくねに、松の実の食感とコクが加わり、味わいが豊かになります。つくね種の表面にかたくり粉を薄くつけてから松の実をのせて焼くと、のりの役目を果たすだけでなく、たれが全体によくからんで、そのままおいしくいただけます。お弁当にもぴったりの一品です。
+    </div>
+    <p class="recipe_cap"> <img src="http://demo.aladdinec.jp/client_info/FLORAHOUSE01/column/recipe/recipe_cap_1.png">
+    </p>
+    <div class="recipe_box" style="text-align:left;">
+        <a href="https://yoihibi.jp/item/OISMNM.html">松の実</a> …… １０ｇ<br>
+        <small>(白ごま、黒ごま、粗く刻んだくるみ、などでも代用できます)</small><br>
+        <br>
+        かたくり粉<small>(または小麦粉)</small> …… 小さじ１<br>
+        鶏ひき肉 …… ２００ｇ<br>
+        <br>
+        ［玉ねぎドレッシング］<br>
+        　 ┌ 塩 …… ３０ｇ<br>  
+        Ａ ｜長ねぎ …… <small>(みじん切り)</small><br>
+        　 ｜パン粉 …… カップ1/4<small>(１０ｇ)</small><br>
+        　 └卵<small>(ほぐして)</small> …… 1/2個分<br>
+        <br>
+        油 …… 少々<br>
+        ピーマン …… ２個<br>
+        塩 …… 少々<br>
+        <br>
+        ［たれ］<br>
+        Ｂ ┌ しょうゆ・砂糖 …… 各大さじ１と1/2<br>
+        　 └ みりん …… 大さじ１と1/2<br>
+        <br>
+        七味唐辛子<small>(お好みで)</small><br>
+    </div>
+    <p class="recipe_cap"> <img src="http://demo.aladdinec.jp/client_info/FLORAHOUSE01/column/recipe/recipe_cap_2.png">
+    </p>
+    <div class="recipe_box">
+        <b>&#10102;</b>鶏ひき肉にＡを加え、粘りが出るまでよく混ぜる。４等分し、円形に丸める。表面にかたくり粉を薄くつけて、<a
+            href="https://yoihibi.jp/item/OISMNM.html">松の実</a>をのせ、押さえつける。手のひらを濡らしながら成形するとやりやすいでしょう。<br>
+        <br>
+        <b>&#10103;</b>ピーマンは縦４等分に切り、種を除く。<br>
+        <br>
+        <b>&#10104;</b>Ｂを合わせてたれをつくる。<br>
+        <br>
+        <b>&#10105;</b>フライパンを熱し薄く油を敷き、<b>&#10103;</b>を中火でさっと焼く。取り出して塩を振っておく。<br>
+        　次につくね種を松の実がついている面から中火で焼き、焼き色がついたら裏返し、フタをして２～３分弱火で中まで火を通し、取り出しておく。
+        <br>
+        <br>
+        <b>&#10106;</b>同じフライパンに<b>&#10104;</b>のたれを入れ、半量になるまで煮詰め、<b>&#10105;</b>を戻し、返しながら全体にたれをからめる。<br>
+        <br>
+        <b>&#10107;</b>器にピーマンとつくねを盛り、七味唐辛子を添える。
+    </div>
+</div>
 
 
 <div class="camp_stock_area">
-  <div class="camp_stock">
-    <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">
-      <p class="camp_stock_img">
-        <img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/UDOOIL/udooil_camp.jpg">
-      </p>
-      <p class="camp_stock_txt">ウドズオイル</p>
-    </a>
-  </div>
-  <div class="camp_stock">
-    <a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">
-      <p class="camp_stock_img">
-        <img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/umekur_new.jpg">
-      </p>
-      <p class="camp_stock_txt">梅黒酢</p>
-    </a>
-  </div>
-  <div class="camp_stock">
-    <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">
-      <p class="camp_stock_img">
-        <img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/soupso.jpg">
-      </p>
-      <p class="camp_stock_txt">スープ・スープ</p>
-    </a>
-  </div>
+    <div class="camp_stock">
+        <a href="https://yoihibi.jp/item/OISMNM.html">
+            <p class="camp_stock_img"> <img
+                    src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/oismnm_new.jpg">
+            </p>
+            <p class="camp_stock_txt">松の実</p>
+        </a>
+    </div>
 </div>
+
+
+松の実はアーモンドやくるみと同じナッツ類で、マツ科マツ属の植物の種子にある胚乳です。ほのかな甘みがあり、脂質やたんぱく質、ビタミンB群、ビタミンE、鉄が豊富で、滋養強壮や疲労回復、美容に役立つと昔から重宝されてきました。<br>
+ヨーロッパでは、古代ローマ時代から愛用され、イタリアでは、「ピノーリ」の名で知られています。肉料理やパスタに用いられることが多く、伝統的なパスタソース「ジェノベーゼ」の材料として、バジルとともに欠かせません。中国では薬膳料理や菓子のほか、薬用にも使用され、皮を取り除きそのままや煎って食べたり、ハチミツなどに漬け込んだりします。松の実の汁粉やおかゆはヘルシー食として有名です。
+<br> 栄養豊富な松の実を料理に加えて、毎日の食事の栄養価をアップさせましょう！
+<br>
