@@ -42,10 +42,10 @@
 .recipe_quantity_area ul { float: right; width: 55%;}
 .recipe_quantity_area ul li { text-align: left;}
 
-.feature_summary_stuff { background: url(<?php echo $Path ?>3back.jpg) no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
+.feature_summary_stuff { background: url(https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/3back.jpg) no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
 .feature_summary_stuff p { background: #ffffff; padding:15px; -moz-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); -webkit-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); width: 90%; line-height: 1.8;}
 .feature_summary_stuff p span { border-bottom: 1px dashed #999999; margin: 0 0 5px 0;}
-.feature_summary_stuff .staff { background: url(<?php echo $Path ?>takemura.png) no-repeat contain; width: 158px; height: 169px; position: absolute; display: block; overflow: hidden; bottom: -20px; right: -20px; }
+.feature_summary_stuff .staff { background: url(https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/takemura.png) no-repeat contain; width: 158px; height: 169px; position: absolute; display: block; overflow: hidden; bottom: -20px; right: -20px; }
 .feature_summary_stuff .staff img { width: 100%; }
 	
 
@@ -103,7 +103,7 @@
 .feature_summary_matome .matome_disp {font-size: 20px;}
 .feature_summary_matome .matome { font-size: 14px;}
 
-.feature_summary_stuff { padding: 20px 20px 110px; background: url(<?php echo $Path ?>3back.jpg) no-repeat; background-size: 200%; }
+.feature_summary_stuff { padding: 20px 20px 110px; background: url(https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/3back.jpg) no-repeat; background-size: 200%; }
 .feature_summary_stuff p { width: 88%; }
 
 .yomimono-text-title-cap {font-size: 20px;}
@@ -123,8 +123,8 @@
 </style>
 <!--★削除禁止★ 8月のレシピ-->
 
-<img src="<?php echo $Path ?>mtitle.png" width="100%;" class="spnone" style="margin: 0 0 20px 0;">
-<img src="<?php echo $Path ?>mtitle_s.png" width="100%;" class="pcnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/mtitle.png" width="100%;" class="spnone" style="margin: 0 0 20px 0;">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/mtitle_s.png" width="100%;" class="pcnone">
 
 <div class="intoroduction_1808TOKU">
   風邪対策として昔から食べられてきた「ねぎ」を使った“冬レシピ”をご紹介します。<br>
@@ -132,8 +132,8 @@
   『ウドズオイル』『梅黒酢』『スープ・スープ』を調味料として使い、おいしさも栄養価もアップした健康レシピになっています。毎日の食事にお役立てください！
 </div>
 
-<img src="<?php echo $Path ?>title.png" width="100%;" class="spnone" style="margin: 0 0 20px 0;">
-<img src="<?php echo $Path ?>title_s.png" width="100%;" class="pcnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/title.png" width="100%;" class="spnone" style="margin: 0 0 20px 0;">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/title_s.png" width="100%;" class="pcnone">
 
 <div class="recipe origin">
   <div class="recipe_title">
@@ -142,7 +142,7 @@
 
   <div class="recipe_img_area">
 
-    <img src="<?php echo $Path ?>recipe_img_1.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_1.png">
 
     <div class="recipe_disp">
       脂がのった寒ぶりの煮つけ。ふっくらやわらかく仕上げるポイントは『梅黒酢』です。白髪ねぎを添えると、食感も栄養的にも相性抜群です。
@@ -199,7 +199,7 @@
 
   <div class="recipe_img_area">
 
-    <img src="<?php echo $Path ?>recipe_img_2.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_2.png">
 
     <div class="recipe_disp">
       『スープ・スープ』に白ごまとみそを加えたコクのあるスープが、ねぎのおいしさを引き立てます。<br>からだの中からぽかぽかと温まります！
@@ -269,7 +269,7 @@
 
   <div class="recipe_img_area">
 
-    <img src="<?php echo $Path ?>recipe_img_3.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_3.png">
 
     <div class="recipe_disp">
       玉ねぎ、じゃがいも、セロリ、エリンギを『スープ・スープ』で煮て、豆乳の素朴な風味で「農夫のスープ」のように仕上げました。
@@ -327,7 +327,7 @@
 
   <div class="recipe_img_area">
 
-    <img src="<?php echo $Path ?>recipe_img_4.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_4.png">
 
     <div class="recipe_disp">
       玉ねぎを『スープ・スープ』のだしでやわらかくなるまで煮ています。卵も入って栄養満点、からだにやさしい雑炊です。
@@ -390,7 +390,7 @@
 
   <div class="recipe_img_area">
 
-    <img src="<?php echo $Path ?>recipe_img_5.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_5.png">
 
     <div class="recipe_disp">
       たっぷりのねぎと、『ウドズオイル』『梅黒酢』『スープ・スープ』の組み合わせが食欲をそそるしょうゆベースのたれです。焼き料理、蒸し料理、和え物、サラダ、鍋のたれなど万能にお使いいただけます。
@@ -440,7 +440,7 @@
   </div>
 
   <div class="recipe_img_area">
-    <img src="<?php echo $Path ?>recipe_img_6.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_6.png">
 
     <div class="recipe_quantity_area">
       <p class="recipe_quantity">〔1人分〕</p>
@@ -489,7 +489,7 @@
   </div>
 
   <div class="recipe_img_area">
-    <img src="<?php echo $Path ?>recipe_img_7.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_7.png">
 
     <div class="recipe_quantity_area">
       <p class="recipe_quantity">〔1人分〕</p>
@@ -532,7 +532,7 @@
   </div>
 
   <div class="recipe_img_area">
-    <img src="<?php echo $Path ?>recipe_img_8.png">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1912TOKU/recipe_img_8.png">
 
     <div class="recipe_quantity_area">
       <p class="recipe_quantity">〔1人分〕</p>
