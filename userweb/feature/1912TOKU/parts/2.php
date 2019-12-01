@@ -3,21 +3,27 @@
 .spnone {display:block!important;}
 .pcnone {display:none!important;}
 
-.orange {color:#F08300;}
+.marker {
+  background: -webkit-linear-gradient(transparent 70%, rgba(232, 56, 32, 0.9) 10%);
+  background: -o-linear-gradient(transparent 70%, rgba(232, 56, 32, 0.9) 10%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 70%, rgba(232, 56, 32, 0.9) 10%);
+}
+
+.orange {color:#ED6F2B;}
 .red {color:#FF0000;}
 
 .item_detail_ttl_name { border-color: #FABE00!important; margin-bottom: 10px;}
 .intoroduction_1808TOKU {text-align: left; margin: 20px 1% 30px; width: 98%; position: relative; padding: 2.5% 2% 2%; background: rgba(255, 255, 255, 0.9); color: #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0 0 20px rgba(240, 131, 0, 0.9); -webkit-box-shadow: 0 0 20px rgba(240, 131, 0, 0.9); box-shadow: 0 0 20px rgba(240, 131, 0, 0.9); display: block; overflow: hidden;}
 
 .recipe {margin:0 0 20px 0;}
-.recipe_title { font-size: 18px; font-weight:bold; color: #231815; clear:both; overflow:hidden; display: block; background: #FCCB3E; padding: 10px 20px; border-radius: 5px; margin: 0 0 20px 0; text-align: center;}
+.recipe_title { font-size: 18px; font-weight:bold; color: #fff; clear:both; overflow:hidden; display: block; background: #ED6F2B; padding: 10px 20px; border-radius: 5px; margin: 0 0 20px 0; text-align: center;}
 .recipe_title small { display: inline-block; border-radius: 50px; background: #fff; color: #333; padding:5px 10px; font-size: 70%;}
-.recipe_title small u {text-decoration: none; color:#0075BE; }
-.origin .recipe_title { background: #0075BE; color: #fff; font-size: 24px;}
+.recipe_title small u {text-decoration: none; color:#2C5C02; }
+.origin .recipe_title { background: #2C5C02; color: #fff; font-size: 24px;}
 .recipe_disp { padding: 0 0 0 0; margin: 0 0 30px 0; overflow:hidden; display: block;}
-.recipe_cap { padding: 0 0 0 0 !important; margin: 10px 0 5px !important; overflow:hidden; display: block;}
+.recipe_cap {  margin: 10px 0 5px !important; overflow:hidden; display: inline-block; background:#2C5C02; color:#fff; font-size:20px; padding:2px 24px; font-weight:bold; border-radius: 40px;}
 .recipe_box { padding: 0 0 0 0 !important; margin:0 0 30px 0; clear:both;}
-.recipe_box b {font-weight:bold; color: #F08300; font-size: 120%;}
+.recipe_box b {font-weight:bold; color: #2C5C02; font-size: 120%;}
 .recipe {width:100%; display: block; overflow: hidden; clear:both; }
 .recipe_img_area { width:360px; float: left;}
 .recipe_img_area img {width:100%;}
@@ -28,7 +34,7 @@
 .recipe_prof_disp span { font-size: 140%;}
 .recipe_prof_img {padding: 0; display: block; overflow: hidden; float: right; width: 25%; margin: 0 auto;}
 .recipe_prof_img img { width: 80%; margin:0 0 0 20%; text-align: center;}
-.recipe_box a {color: #F08300!important;}
+.recipe_box a {color: #2C5C02!important;}
 .recipe_box a:hover {color: #6A6A6A!important;}
 
 .recipe_quantity_area { border: 1px solid #ccc; display: block; overflow: hidden; padding: 10px; width: 100%;}
@@ -52,12 +58,12 @@
 .yomimono-text-disp { display: block; font-size: 20px; box-sizing: border-box; margin: 0 48px; text-align: justify; line-height: 1.6; letter-spacing: 1px;}
 .yomimono-author {display: block; margin: 0 0 0 48px; padding: 0 0 0 0; font-size: 16px; font-weight: bold;}
 
-.yomimono-what { background: #c8b6a1; border-radius: 8px; padding: 16px;clear: both; display: block;}
-.yomimono-what-title { text-align: center; font-size: 20px;}
-.yomimono-what-title b {font-size: 24px;}
+.yomimono-what { background: #FCE2BA; border-radius: 8px; padding: 24px;clear: both; display: block; margin:0 0 48px 0;}
+.yomimono-what-title { text-align: center; font-size: 20px; margin:0 0 16px 0;}
+.yomimono-what-title b {font-size: 22px;}
 .yomimono-what-disp { display: block; font-size: 16px; box-sizing: border-box; text-align: justify; letter-spacing: 1px; color: #231815;}
 .yomimono-what-disp p { line-height: 1.8;}
-.yomimono-what-disp p span { border-bottom: 1px dashed #fff; margin: 0 0 5px 0;}
+.yomimono-what-disp p span { margin: 0 0 5px 0;}
 
 .yomimono-credit { display: block; margin: 0 0 16px;}
 
@@ -121,399 +127,478 @@
 <img src="<?php echo $Path ?>mtitle_s.png" width="100%;" class="pcnone">
 
 <div class="intoroduction_1808TOKU">
-暑い夏を元気に乗り切るための『スープ・スープ』を使ったお料理をご紹介します。作ってくださったのは、「新・旬の元気レシピ」でおなじみの栄養士の佐藤信子さんです。
-簡単なのに、おいしくてヘルシーなお料理を、是非お試しください。
+  風邪対策として昔から食べられてきた「ねぎ」を使った“冬レシピ”をご紹介します。<br>
+  料理のレシピは、「新・旬の元気レシピ」で、季節の旬の食材を使った料理を作ってくださっている栄養士の佐藤信子さんです。<br>
+  『ウドズオイル』『梅黒酢』『スープ・スープ』を調味料として使い、おいしさも栄養価もアップした健康レシピになっています。毎日の食事にお役立てください！
 </div>
 
 <img src="<?php echo $Path ?>title.png" width="100%;" class="spnone" style="margin: 0 0 20px 0;">
 <img src="<?php echo $Path ?>title_s.png" width="100%;" class="pcnone">
 
 <div class="recipe origin">
-<div class="recipe_title">
-カポナータ風 夏野菜のスープ・スープ漬け<span class="orange">★</span>
-<small><span class="orange">★</span>下の2つのお料理にアレンジして使えます。</small>
-</div>
+  <div class="recipe_title">
+    寒ぶりの梅黒酢煮 白髪ねぎ添え
+  </div>
 
-<div class="recipe_img_area">
+  <div class="recipe_img_area">
 
-<img src="<?php echo $Path ?>recipe_img_1.png">
+    <img src="<?php echo $Path ?>recipe_img_1.png">
 
-<div class="recipe_disp">
-たくさんの種類の夏野菜を『スープ・スープ』で煮込みました。常備菜としてもおすすめ！<br>
-「カポナータ」は、イタリア生まれの家庭料理です。
-</div>
+    <div class="recipe_disp">
+      脂がのった寒ぶりの煮つけ。ふっくらやわらかく仕上げるポイントは『梅黒酢』です。白髪ねぎを添えると、食感も栄養的にも相性抜群です。
+    </div>
 
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔1人分〕</p>
-<ul>
-<li>約250g</li>
-<li>エネルギー　158kcal</li>
-<li>食塩相当量　1.5ｇ</li>
-</ul>
-</div>
-	
-</div>
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約477kcal</li>
+        <li>食塩相当量　約２.9ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
 
-<div class="recipe_area">
+  <div class="recipe_area">
 
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
+    <p class="recipe_cap">材料<small>(2人分)</small></p>
 
-<div class="recipe_box" style="text-align:left;">
-ミニトマト …… 150ｇ（2/3パック）<br>
-玉ねぎ …… 100ｇ（中1/2個）<br>
-セロリ …… 50ｇ（1/2本）<br>
-パプリカ（橙） …… 150ｇ（1個）<br>
-ズッキーニ …… 150ｇ（1本）<br>
-オリーブオイル …… 大さじ１<br>
-<br>
-　┌ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10ｇ<br>
-Ａ│ 塩 …… 小さじ１<br>
-　└ みりん …… 大さじ１
-</div>
+    <div class="recipe_box" style="text-align:left;">
+      ぶり（切身） …… ２〜３切れ（約300ｇ）<br>
+      生姜 …… 一片（10ｇ）<br>
+      仕上げ用『<a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a>』 …… 大さじ１<br>
+      ねぎ …… 8cm<br>
+      <br>
+      煮汁（A）<br>
+      　┌ <a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a> …… 大さじ2<br>
+      　│ 水 …… 130mI<br>
+      　└ しょうゆ・みりん …… 各大さじ2
+    </div>
 
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>ミニトマトはヘタをとり、皮に浅く切り込みを入れ、さっと茹でて皮をとる。他の野菜は２㎝角に切っておく。<br>
-<br>
-<b>&#10103;</b>鍋にオリーブオイルを熱し、トマト以外の野菜を中火で５分炒め、Ａとミニトマトを加えてさらに１分炒める。
-</div>
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>ぶりの切り身は2つに切る。生姜は細切りにする。<br>
+      <br>
+      <b>&#10103;</b>鍋に煮汁（Ａ）を中火で煮立て、ぶりを重ならないように入れ、生姜を散らし、沸騰させながらアクを取る。<br>弱火にしてクッキングシート（またはアルミホイル）で落としぶたをし、煮汁が少し残るまで7〜8分煮る。仕上げに『梅黒酢』を回し入れ、火を止める。<br>
+      <br>
+      <b>&#10104;</b>白髪ねぎを作る。<br>
+      <br>
+      ねぎは4cmに切る。縦に切り込みを入れて、芯を除き、せん切りにする。水にさらして水気を切る（芯はみじん切りにして、他の料理の薬味等に使います）。<br>
+      <br>
+      <b>&#10105;</b>器に盛り、<b>&#10104;</b>の白髪ねぎをたっぷり添える。<br>
+      <small>※冷蔵庫で2〜3日は保存できるので、作り置きできます。</small>
+    </div>
 
-</div>
-
-</div>
-
-<div class="recipe">
-<div class="recipe_title">
-夏野菜のスープ・スープ漬け入り卵焼き<br>
-<small><u>カポナータ風 夏野菜のスープ・スープ漬け</u>のアレンジメニューです。</small>
-</div>
-
-<div class="recipe_img_area">
-
-<img src="<?php echo $Path ?>recipe_img_2.png">
-
-<div class="recipe_disp">
-見た目にも爽やかな卵焼き。夏ならではの彩りです。食べてみると、夏野菜の酸味や甘味、トロッとした食感が口の中に広がります。
-</div>
-
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔1人分〕</p>
-<ul>
-<li>エネルギー　133kcal</li>
-<li>食塩相当量　1.0ｇ</li>
-</ul>
-</div>
-	
-</div>
-
-<div class="recipe_area">
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
-
-<div class="recipe_box" style="text-align:left;">
-<span class="orange">★</span>夏野菜のスープ・スープ漬け …… 100ｇ<br>
-卵 …… 2個<br>
-<br>
-　┌ しょうゆ …… 小さじ１<br>
-Ａ│<span class="orange">★</span>スープ・スープ漬けの水分 …… 大さじ１<br>
-　└ 砂糖 …… 小さじ１
-</div>
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>卵を割りほぐしＡを加えよく混ぜる。<br>
-<br>
-<b>&#10103;</b>卵焼き器を熱し薄く油を敷き、卵液の1/2量を流す。<br>
-<br>
-<b>&#10104;</b>下の部分が固まったら1/2量の<span class="red">★</span>夏野菜のスープ・スープ漬けを一面に散らして、一巻きする。<br>
-<br>
-<b>&#10105;</b>残りの1/2量の卵液を流し、&#10104;と同様に<span class="red">★</span>を散らしてもう一度巻く。<br>
-<small>＊焦げやすいので火加減にはご注意ください。</small>
-</div>
-
-</div>
-
-</div>
-
-<div class="recipe">
-<div class="recipe_title">
-とりもも肉の南蛮漬け風<br>
-<small><u>カポナータ風 夏野菜のスープ・スープ漬け</u>のアレンジメニューです。</small>
-</div>
-
-<div class="recipe_img_area">
-
-<img src="<?php echo $Path ?>recipe_img_3.png">
-
-<div class="recipe_disp">
-『スープ・スープ』で作った南蛮汁は万能です。とりもも肉だけでなく、イワシや白身魚なども、さっぱりおいしく仕上がります。
-</div>
-
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔1人分〕</p>
-<ul>
-<li>エネルギー　331kcal</li>
-<li>食塩相当量　3.2ｇ</li>
-</ul>
-</div>
-
-</div>
-
-<div class="recipe_area">
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
-
-<div class="recipe_box" style="text-align:left;">
-とりもも肉 …… 小1枚（250ｇ）<br>
-塩・こしょう …… 少々<br>
-かぼちゃ …… ６０ｇ<br>
-<br>
-南蛮汁<br>
-　┌ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 小さじ1<br>
-　│ しょうゆ …… 大さじ2<br>
-Ａ│ <a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a>（酢） …… 大さじ1<br>
-　│ <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 大さじ1<br>
-　│ 長ねぎ（細切りにする） …… 5ｃｍ<br>
-　└ 赤唐辛子輪切り …… ひとつまみ
-<br>
-(付け合わせ）<br>
-<span class="orange">★</span>夏野菜のスープ・スープ漬け …… 100ｇ
-</div>
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>とりもも肉は厚みを均等にし、6枚のそぎ切りにして塩・こしょうをする。かぼちゃは種を取り、５㎜の厚さに切る。<br>
-<br>
-<b>&#10103;</b>南蛮汁の材料Ａを合わせておく。<br>
-<br>
-<b>&#10104;</b>とりもも肉とかぼちゃはグリル（両面焼き）で10〜15分、またはフライパンで焦げ色が付くまで焼き、&#10103;に浸す。<br>
-<br>
-<b>&#10105;</b>&#10104;が冷めたら、<span class="red">★</span>夏野菜のスープ・スープ漬けを加え混ぜる。
-</div>
-
-</div>
+  </div>
 
 </div>
 
 <div class="recipe origin">
-<div class="recipe_title">
-酸辣湯（サンラータン）風にゅうめん
+  <div class="recipe_title">
+    ねぎと豚肉のごまみそ鍋
+  </div>
+
+  <div class="recipe_img_area">
+
+    <img src="<?php echo $Path ?>recipe_img_2.png">
+
+    <div class="recipe_disp">
+      『スープ・スープ』に白ごまとみそを加えたコクのあるスープが、ねぎのおいしさを引き立てます。<br>からだの中からぽかぽかと温まります！
+    </div>
+
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約661kcal</li>
+        <li>食塩相当量　約3.２ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="recipe_area">
+
+    <p class="recipe_cap">材料<small>(2人分)</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      ねぎ …… 2本（200ｇ）<br>
+      にら …… 1/２束（50ｇ）<br>
+      焼き豆腐 …… 1丁（300g）<br>
+      豚肉（三枚肉） …… 150ｇ<br>
+      　　┌ 万能ねぎ（小口切り）<br>
+      薬味│ 柚子胡椒<br>
+      　　└ 七味唐辛子<br>
+      <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10g<br>
+      <br>
+      　┌ 味噌 …… 50g<br>
+      Ａ│ みりん …… 大さじ3<br>
+      　└ 白すりごま …… 大さじ3（10ｇ）<br>
+      <br>
+      水 …… 500mI
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>ねぎは3cmのぶつ切りに、にらは5cmの長さに切る。焼き豆腐は8等分にしておく。<br>
+      <br>
+      <b>&#10103;</b>土鍋などに分量の水を入れ沸騰させる。豚肉を1枚ずつ湯に入れ取り出しておく。豚肉から出たアクを取り除く。<br>
+      <br>
+      <b>&#10104;</b>&#10103;に『スープ・スープ』とＡを入れよく混ぜる。&#10102;と&#10103;の茹でた豚肉を並べ入れ、ふたをして加熱する。<br>
+      <br>
+      <b>&#10105;</b>温めながら好みの薬味を添えていただく。<br>
+      <br>
+      <small>※だし汁が残ったらごはんやうどんなどを加えてもよいでしょう。</small>
+    </div>
+
+  </div>
+  
 </div>
 
-<div class="recipe_img_area">
-
-<img src="<?php echo $Path ?>recipe_img_4.png">
-
-<div class="recipe_disp">
-暑い季節だからこそ食べて欲しい、酸味とうま味が食欲をそそるにゅうめんです。いろいろな食材も入って、栄養バランスも良くなります。
-</div>
-
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔1人分〕</p>
-<ul>
-<li>エネルギー　358kcal</li>
-<li>食塩相当量　3.2ｇ</li>
-</ul>
-</div>
-	
-</div>
-
-<div class="recipe_area">
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
-
-<div class="recipe_box" style="text-align:left;">
-そうめん …… ２束（100ｇ）<br>
-豚三枚肉 …… 50ｇ<br>
-えのき茸 …… 50ｇ<br>
-にんじん …… 30ｇ<br>
-豆腐 …… 100ｇ<br>
-万能ねぎ（小口切り） …… 大さじ２<br>
-水溶きかたくり粉 …… （かたくり粉大さじ1・1/2を同量の水で溶く）<br>
-<a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a>（酢） …… 小さじ2<br>
-ラー油 …… 適量<br>
-<br>
-　┌ 水 …… 400ｍｌ<br>
-Ａ│ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10ｇ<br>
-　│ しょうゆ …… 大さじ１<br>
-　└ 塩 …… 小さじ1/2
-</div>
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>豚肉は5㎜幅の細切り、えのき茸、にんじん、豆腐はそれぞれ4㎝の長さの細切りにする。<br>
-<br>
-<b>&#10103;</b>鍋にＡと豆腐以外の①を入れ、肉をほぐしながら火にかける。煮立ったらアクをとり、2〜3分煮る。<br>
-<br>
-<b>&#10104;</b>そうめんは表示通りに茹でる。湯を切り、器に入れる。<br>
-<br>
-<b>&#10105;</b>&#10103;に豆腐と水溶きかたくり粉を加えてひと煮立ちさせ、火を止める。<br>
-<br>
-<b>&#10106;</b>器に注ぎ、梅黒酢を小さじ１、好みでラー油を加え、万能ねぎを散らす。
-</div>
-
-</div>
-
+<div class="yomimono-what">
+  <div class="yomimono-what-title">
+    <span class="marker"><b>「アリシン」に「ビタミンB1<small>(豚肉・豆類・魚類)</small>」をプラスして疲労回復も！</b></span>
+  </div>
+  <div class="yomimono-what-disp">
+    <p><span>アリシンは、ねぎの白い部分や玉ねぎ、にらなどに豊富に含まれています。ビタミンB1を含む豚肉、豆類、魚類（ぶり、うなぎ、かつおなど）などと一緒に摂ると、ビタミンB1の体内への吸収がよくなり、疲労回復成分として働きます。<br>ねぎの緑色の部分には、β-カロテン、ビタミンCが含まれています。</span></p>
+  </div>
 </div>
 
 <div class="recipe origin">
-<div class="recipe_title">
-蒸し野菜につけて  豆腐と鮭のディップ<span class="orange">★</span><br>
-<small><span class="orange">★</span>下のお料理にアレンジして使えます。</small>
+  <div class="recipe_title">
+    具だくさんの白いスープ
+  </div>
+
+  <div class="recipe_img_area">
+
+    <img src="<?php echo $Path ?>recipe_img_3.png">
+
+    <div class="recipe_disp">
+      玉ねぎ、じゃがいも、セロリ、エリンギを『スープ・スープ』で煮て、豆乳の素朴な風味で「農夫のスープ」のように仕上げました。
+    </div>
+
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約269kcal</li>
+        <li>食塩相当量　約1.0ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="recipe_area">
+
+    <p class="recipe_cap">材料<small>(2人分)</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      じゃがいも …… 1個（150ｇ）<br>
+      玉ねぎ …… 1/4個（50ｇ）<br>
+      セロリ …… 30g<br>
+      エリンギ …… 小１本（30g）<br>
+      セロリの葉の細切り …… 少々<br>
+      塩・こしょう …… 少々<br>
+      豆乳 …… 200mI<br>
+      <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 小さじ２<br>
+      <br>
+      　┌ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10g<br>
+      Ａ│ 水 …… 200mI<br>
+      　└ 塩 …… 小さじ1/3<br>
+      <br>
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>じゃがいもは皮をむき1cm角に切り、水に取り、水気を切っておく。<br>
+      <br>
+      <b>&#10103;</b>玉ねぎ、セロリ、エリンギは1cm角の薄切りにする。<br>
+      <br>
+      <b>&#10104;</b>鍋にA、&#10102;&#10103;を入れ、じゃがいもがやわらかくなるまで中火で煮る。豆乳を加えひと煮立ちさせる。塩・こしょうをして味を調える。<br>
+      <br>
+      <b>&#10105;</b>器に盛り、『<a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a>』をかけ、セロリの葉の細切りを散らす。
+    </div>
+
+  </div>
+  
 </div>
 
-<div class="recipe_img_area">
+<div class="recipe origin">
+  <div class="recipe_title">
+    玉ねぎとトマトの卵雑炊
+  </div>
 
-<img src="<?php echo $Path ?>recipe_img_5.png">
+  <div class="recipe_img_area">
 
-<div class="recipe_disp">
-豆腐と鮭を混ぜて、『スープ・スープ』などで味付けしました。たんぱく質がしっかり摂れるディップです。パンに付けてもおいしい！
+    <img src="<?php echo $Path ?>recipe_img_4.png">
+
+    <div class="recipe_disp">
+      玉ねぎを『スープ・スープ』のだしでやわらかくなるまで煮ています。卵も入って栄養満点、からだにやさしい雑炊です。
+    </div>
+
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約321kcal</li>
+        <li>食塩相当量　約1.2ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="recipe_area">
+
+    <p class="recipe_cap">材料<small>(2人分)</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      トマト …… 中1個（100ｇ）<br>
+      玉ねぎ …… 小1個（100ｇ）<br>
+      ごはん …… 150g<br>
+      卵 …… 1個<br>
+      粉チーズ …… 大さじ2<br>
+      塩・こしょう …… 少々<br>
+      万能ねぎ（小口切り） …… 2本分<br>
+      <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 小さじ２<br>
+      <br>
+      　┌ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10g<br>
+      Ａ│ 水 …… 500mI<br>
+      　└ 塩 …… 小さじ1/3<br>
+      <br>
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>トマトは2cmの角切り、玉ねぎは薄切りにする。<br>
+      <br>
+      <b>&#10103;</b>鍋にＡと玉ねぎを入れ4～5分煮る。<br>
+      <br>
+      <b>&#10104;</b>&#10103にごはんとトマトを加えて、ひと煮立ちさせる。<br>
+      <br>
+      <b>&#10105;</b>卵を割りほぐし、粉チーズを加え、混ぜ合わせて&#10104に流し入れ、卵が固まるまで煮る。塩・こしょうで味を調える。器に取り、万能ねぎを散らす。<br>
+      <br>
+      <b>&#10106;</b>最後に『<a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a>』をかけていただく。<br>
+      <br>
+    </div>
+
+  </div>
+  
 </div>
 
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔全量に対して〕</p>
-<ul>
-<li>エネルギー　387kcal</li>
-<li>食塩相当量　3.4ｇ</li>
-</ul>
-</div>
-	
+<div class="recipe origin">
+  <div class="recipe_title">
+    <div class="recipe_title_seal">ねぎたっぷり《基本のたれ》</div>
+    『ウドズオイル』のねぎだれ<span class="orange">★</span><br>
+    <small><span class="orange">★</span>下のお料理にアレンジして使えます。</small>
+  </div>
+
+  <div class="recipe_img_area">
+
+    <img src="<?php echo $Path ?>recipe_img_5.png">
+
+    <div class="recipe_disp">
+      たっぷりのねぎと、『ウドズオイル』『梅黒酢』『スープ・スープ』の組み合わせが食欲をそそるしょうゆベースのたれです。焼き料理、蒸し料理、和え物、サラダ、鍋のたれなど万能にお使いいただけます。
+    </div>
+
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約78kcal</li>
+        <li>食塩相当量　約1.8ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="recipe_area">
+
+    <p class="recipe_cap">材料<small>(作りやすい量)</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      ねぎ …… 1/2本（50g）<br>
+      生姜 …… 一片（10g）<br>
+      赤唐辛子（輪切り） …… 2つまみ<br>
+      　┌ <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 50mI<br>
+      　│<a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a> …… 50mI<br>
+      Ａ│<a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 20g<br>
+      　│しょうゆ ……  50mI<br>
+      　└ 塩 …… 小さじ１<br>
+      <small>※冷蔵庫で10日程度保存できます。</small>
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>ねぎは大きめのみじん切り、生姜はみじん切りにする。<br>
+      <br>
+      <b>&#10103;</b>Aを保存容器などに入れ、&#10102;と赤唐辛子を加えよく混ぜる。<br>
+    </div>
+
+  </div>
+  
 </div>
 
-<div class="recipe_area">
+<div class="recipe">
+  <div class="recipe_title">
+    魚介と冬野菜のグリル<br>
+    <small><u>『ウドズオイル』のねぎだれ</u> 応用料理1</small>
+  </div>
 
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
+  <div class="recipe_img_area">
+    <img src="<?php echo $Path ?>recipe_img_6.png">
 
-<div class="recipe_box" style="text-align:left;">
-※材料、作り方はディップのみ<br>
-<br>
-豆腐 …… 100ｇ <br>
-鮭（缶詰） …… 45ｇ（小1/2缶）<br>
-万能ねぎ（小口切り） …… 大さじ2<br>
-<br>
-　┌ <a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">ウドズオイル</a> …… 大さじ2<br>
-Ａ│ <a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">梅黒酢</a>（酢） …… 大さじ1<br>
-　│ <a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a>  …… 小さじ１<br>
-　└ 塩 …… 小さじ1/2（お好みで）
-</div>
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約239kcal</li>
+        <li>食塩相当量　約1.2ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
 
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>豆腐はキッチンペーパーで包み、重石をしてしばらく置く。<br>
-<br>
-<b>&#10102;</b>スプーンなどで豆腐と鮭をつぶし、Ａを加え混ぜ、万能ねぎを加えさらに混ぜる。蒸し野菜につけていただく。
-</div>
+  <div class="recipe_area">
 
-</div>
+    <p class="recipe_cap">材料<small>2人分</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      <span class="orange">★</span>『ウドズオイル』のねぎだれ …… 大さじ2<br>
+      <br>
+      ブロッコリー …… 80g（正味）<br>
+      カリフラワー …… 80g（正味）<br>
+      かぼちゃ …… 100g<br>
+      生ホタテ貝柱 …… 4個（120g）<br>
+      えび（殻付き） …… 6尾（120g）<br>
+      オリーブ油 …… 大さじ1/2<br>
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>ブロッコリーとカリフラワーは小房に分ける。固めに茹で、ザルに取り出し水気を切っておく。かぼちゃはひと口大に切る。<br>
+      <br>
+      <b>&#10103;</b>生ホタテ貝柱は表面に浅く切れ目を入れる。えびは殻付きのまま背ワタを取る。水気を拭いておく。<br>
+      <br>
+      <b>&#10104;</b>フライパンを熱し、1/2量のオリーブ油を引く。ブロッコリーとカリフラワーは中火で焼き、取り出す。かぼちゃは弱火でゆっくり焼き取り出す。残りのオリーブ油を足し、強火で❷の魚介類を焼く。<br>
+      <br>
+      <b>&#10105;</b>器に取り、ねぎだれを添える。
+    </div>
+
+  </div>
 
 </div>
 
 <div class="recipe">
-<div class="recipe_title">
-豆腐と鮭のディップ　ア・ラ・カルト<br>
-<small><u>豆腐と鮭のディップ</u>のアレンジメニューです。</small>
-</div>
+  <div class="recipe_title">
+  湯豆腐<br>
+    <small><u>『ウドズオイル』のねぎだれ</u> 応用料理2</small>
+  </div>
 
-<div class="recipe_img_area">
+  <div class="recipe_img_area">
+    <img src="<?php echo $Path ?>recipe_img_7.png">
 
-<img src="<?php echo $Path ?>recipe_img_7.png">
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約151kcal</li>
+        <li>食塩相当量　約1.4ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
 
-<div class="recipe_disp">
-上の基本ディップをお好みの味にアレンジしてお楽しみください。カレー粉や辛味を少し加えると、食欲がわいてきます！
-</div>
-	
-</div>
+  <div class="recipe_area">
 
-<div class="recipe_area">
+    <p class="recipe_cap">材料<small>2人分</small></p>
 
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1.png"></p>
+    <div class="recipe_box" style="text-align:left;">
+      <span class="orange">★</span>『ウドズオイル』のねぎだれ …… 大さじ2<br>
+      <br>
+      豆腐（絹） …… 1丁（300g）<br>
+      葉ねぎ（万能ねぎ等） …… 2〜3本<br>
+      生しいたけ …… 4枚<br>
+      だし昆布 …… 5cm<br>
+    </div>
 
-<div class="recipe_box" style="text-align:left;">
-カレー味 …… カレー粉小さじ２を加え混ぜる。<br>
-辛み味 …… 豆板醬小さじ1を加え混ぜる。<br>
-ごま味 …… すりごま大さじ２を加え混ぜる。
-<br>
-<small>＊冷蔵庫に保存し、2〜3日中にお召し上がりください。</small>
-</div>
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>土鍋などにだし昆布をしき、６等分した豆腐、4cmの長さに切った葉ネギ、生しいたけを並べ、ひたひたになるまで水を入れる。<br>
+      <br>
+      <b>&#10103;</b>中火で温めたら器にとり、ねぎだれを添える。
+    </div>
 
-</div>
-
-</div>
-
-<div class="recipe origin">
-<div class="recipe_title">
-干し桜エビ入りにんじんご飯
-</div>
-
-<div class="recipe_img_area">
-
-<img src="<?php echo $Path ?>recipe_img_6.png">
-
-<div class="recipe_disp">
-カルシウムが豊富な桜エビの炊き込みご飯です。『スープ・スープ』を加えると、たんぱく質も一緒に摂れて、骨の健康に役立ちます。
-</div>
-
-<div class="recipe_quantity_area">
-<p class="recipe_quantity">〔1人分〕</p>
-<ul>
-<li>エネルギー　320kcal</li>
-<li>食塩相当量　1.7ｇ</li>
-</ul>
-</div>
-	
-</div>
-
-<div class="recipe_area">
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_1_2.png"></p>
-
-<div class="recipe_box" style="text-align:left;">
-米 …… 米用カップ２（2合）<br>
-にんじんジュース（100％人参） …… 200ml<br>
-水 …… 約230ml<br>
-干し桜エビ（乾煎りして） …… 10ｇ<br>
-にんじん …… 100ｇ<br>
-生しいたけ …… 4枚<br>
-<br>
-　┌<a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">スープ・スープ</a> …… 10ｇ<br>
-Ａ│ 酒・しょうゆ …… 各大さじ1<br>
-　└ 塩 …… 小さじ1/2<br>
-</div>
-
-<p class="recipe_cap"><img src="<?php echo $Path ?>recipe_cap_2.png"></p>
-<div class="recipe_box">
-<b>&#10102;</b>米を研ぎ水を切り、釜に米、にんじんジュースを入れ、２合の印まで水を加えて30分浸け置く。<br>
-<br>
-<b>&#10103;</b>干し桜エビは香りが出るまで乾煎りする（電子レンジで20秒加熱してもよい）。にんじん、生しいたけは細切りにする。<br>
-<br>
-<b>&#10104;</b>&#10102;に&#10103;とＡを入れ混ぜ、普通に炊く。炊き上がったらひと混ぜする。器に盛り、お好みで大葉の細切りなどを添える。
-</div>
+  </div>
 
 </div>
+
+<div class="recipe">
+  <div class="recipe_title">
+    鶏ささ身と玉ねぎのワイン蒸し<br>
+    <small><u>『ウドズオイル』のねぎだれ</u> 応用料理3</small>
+  </div>
+
+  <div class="recipe_img_area">
+    <img src="<?php echo $Path ?>recipe_img_8.png">
+
+    <div class="recipe_quantity_area">
+      <p class="recipe_quantity">〔1人分〕</p>
+      <ul>
+        <li>エネルギー　約162kcal</li>
+        <li>食塩相当量　約1.0ｇ</li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="recipe_area">
+
+    <p class="recipe_cap">材料<small>2人分</small></p>
+
+    <div class="recipe_box" style="text-align:left;">
+      <span class="orange">★</span>『ウドズオイル』のねぎだれ …… 大さじ2<br>
+      <br>
+      玉ねぎ …… １個（150ｇ）<br>
+      にんじん …… ４cm（30ｇ）<br>
+      鶏ささ身 …… ３本（150g）<br>
+      塩・こしょう …… 少々<br>
+      白ワイン …… 大さじ2<br>
+      芽ねぎや好みのスプラウト …… 適量<br>
+    </div>
+
+    <p class="recipe_cap">作り方</p>
+    <div class="recipe_box">
+      <b>&#10102;</b>玉ねぎは縦半分に切り、薄切りにする。にんじんは皮をむき、細切りにする。混ぜ合わせておく。<br>
+      <br>
+      <b>&#10103;</b>鶏ささ身はスジを取り、厚さを均一にして塩・こしょうをする。<br>
+      <br>
+      <b>&#10104;</b>鍋に&#10102;をしき、&#10103;をのせ、白ワインを全体にかける。ふたをし、蒸気が出るまでは中火で加熱。その後弱火にして約5〜6分蒸し煮にする。蒸し上がったら、取り出し、広げ冷ます。鶏ささ身は細かく裂いておく。<br>
+      <br>
+      <b>&#10105;</b>&#10104;を器に盛り、ねぎだれをかけて和える。<br>
+      <br>
+      <b>&#10106;</b>芽ねぎや好みのスプラウトをのせる。
+    </div>
+
+  </div>
+
+</div>
+
 
 <div class="yomimono-credit">
-    テーブルコーディネートを含む写真撮影：中島香代子さん
-  </div>
-
-  <div class="yomimono-what">
-    <div class="yomimono-what-title">
-      <b>薬膳</b>とは?
-    </div>
-    <div class="yomimono-what-disp">
-      <p><span>中国伝統医学に基づき、健康増進、疾病の予防、治療の効果が期待できる食事のこと。からだの状態や体質、季節などをふまえ、食材や生薬などの効能効果を考慮して組み合わせるのが特徴です。</span></p>
-    </div>
-  </div>
 
   <div class="feature_summary_stuff">
   	<div class="staff"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1907RECI/takemura.png"></div>
-  	<p><span>中島さんの薬膳は、普段の食事に取り入れやすいように食材選びや調理方法などをきちんと考え、食べやすいサイズにするなど、盛り付けにも気を配っています。<br>薬膳と聞くと、特別な食材を使い、調理も難しいと思われがちですが、ちょっとした工夫で食事の内容をより健康的にすることができます。参考にしてくださいね！（よい日々編集 竹村）</span></p>
+  	<p><span>料理写真は、佐藤さんのご自宅にて1日がかりで撮影させていただきました。撮影しながら試食もさせていただき、本当にどれもおいしくて、からだの中から温まって元気になる料理ばかりです。私が特に気に入っているのは「ウドズオイルのねぎだれ」です。このたれをかけると食欲がわいてきて、ついつい食べ過ぎてしまうほどです。皆さんもいろいろと工夫してお楽しみください！<br>（よい日々編集 竹村）</span></p>
   </div>
 
   <div class="camp_stock_area">
 
+    <div class="camp_stock"><a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">
+    <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/UDOOIL/uo25n00_camp.jpg"></p>
+    <p class="camp_stock_txt">ウドズオイル</p>
+    </a></div>
+
     <div class="camp_stock"><a href="https://yoihibi.jp/item/UMEKUR.html" target="_blank">
     <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/umekur_camp.jpg"></p>
     <p class="camp_stock_txt">梅黒酢</p>
+    </a></div>
+
+    <div class="camp_stock"><a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">
+    <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/soupso.jpg"></p>
+    <p class="camp_stock_txt">スープ・スープ</p>
     </a></div>
 
   </div>
