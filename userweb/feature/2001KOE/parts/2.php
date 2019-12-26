@@ -4,7 +4,7 @@
 .pcnone {display:none!important;}
 
 /*上書き*/
-.item_detail_ttl_name { border-color: #034d8e!important;}
+.item_detail_ttl_name { border-color: #887C2B!important;}
 .article_detail_info {margin: 0; padding: 0; width: 100%;}
 
 .marker {
@@ -39,7 +39,7 @@
 .camp_stock { width: 25%; float: left;}
 .camp_stock_img { border: 1px solid #ddd; width: 90%; margin: 10px auto 0; height: 180px; display: block; overflow: hidden; text-align: center; background: #fff;}
 .camp_stock_img img { width: auto; height: 100%; text-align: center;}
-.camp_stock_txt { display: block; overflow: hidden; height: 4.5em; margin: 0 auto 0; padding: 10px 0; width: 85%; font-size: 14px; color: #034d8e; font-weight: bold; text-align: justify;}
+.camp_stock_txt { display: block; overflow: hidden; height: 4.5em; margin: 0 auto 0; padding: 10px 0; width: 85%; font-size: 14px; color: #887C2B; font-weight: bold; text-align: justify;}
 .camp_stock a:hover { opacity: 0.6;}
 
 @media screen and (max-width: 767px) {
@@ -68,7 +68,8 @@
   <img src="<?php echo $Path ?>title.png" class="spnone">
   <img src="<?php echo $Path ?>title_s.png" class="pcnone">
   <div class="intoroduction">
-  よい日々ショップでは、さまざまなサプリメントや健康食品をご紹介しております。皆さんからのご質問で「何を摂ったらいいのか分からない」「自分には何が必要ですか？」というお声をよくいただきます。よい日々ショップの商品を上手に利用して、より健康になるための活用法をお伝えいたします。
+  昨年（2019年）5・6月合併号でご紹介いたしました「シニアにおすすめ サプリメント活用法！」を2020年版に更新させていただきました。「ご愛用者ランキング」をご覧になって、気になる商品などもおありかと思いますので、ご参考にしてください。
+「よい日々ショップ」では、何かを足す前にからだの中を浄化する、不要なものを排出するという考え方をおすすめしております。ぜひステップ１からお始めください。
   </div>
 </div>
 
@@ -84,24 +85,9 @@
 
 <div class="camp_stock_area">
 
-  <div class="camp_stock"><a href="https://yoihibi.jp/item/FLRDIX.html" target="_blank">
-  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/FLRDIX/flrdix_camp.jpg"></p>
-  <p class="camp_stock_txt">フローラディクス</p>
-  </a></div>
-
   <div class="camp_stock"><a href="https://yoihibi.jp/item/UDOOIL.html" target="_blank">
-  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/UDOOIL/uo25n00_camp.jpg"></p>
+  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/UDOOIL/uo50n00.jpg"></p>
   <p class="camp_stock_txt">オーガニック ウドズオイル オメガ3＋6＋9ブレンド</p>
-  </a></div>
-
-  <div class="camp_stock"><a href="https://yoihibi.jp/item/VEGESI.html" target="_blank">
-  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/vegesi.jpg"></p>
-  <p class="camp_stock_txt">ベジ・シリカ</p>
-  </a></div>
-
-  <div class="camp_stock"><a href="https://yoihibi.jp/item/TUKINO.html" target="_blank">
-  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/tukino.jpg"></p>
-  <p class="camp_stock_txt">月のしずく</p>
   </a></div>
 
   <div class="camp_stock"><a href="https://yoihibi.jp/item/FLOREL.html" target="_blank">
@@ -109,9 +95,29 @@
   <p class="camp_stock_txt">フロー・エッセンス＋ リキッド</p>
   </a></div>
 
+  <div class="camp_stock"><a href="https://yoihibi.jp/item/TUKINO.html" target="_blank">
+  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/tukino.jpg"></p>
+  <p class="camp_stock_txt">月のしずく</p>
+  </a></div>
+
+  <div class="camp_stock"><a href="https://yoihibi.jp/item/VEGESI.html" target="_blank">
+  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/vegesi.jpg"></p>
+  <p class="camp_stock_txt">ベジ・シリカ</p>
+  </a></div>
+
   <div class="camp_stock"><a href="https://yoihibi.jp/item/SOUPSO.html" target="_blank">
   <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/soupso.jpg"></p>
   <p class="camp_stock_txt">スープ・スープ</p>
+  </a></div>
+
+  <div class="camp_stock"><a href="https://yoihibi.jp/item/FLRDIX.html" target="_blank">
+  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/flrdix.jpg"></p>
+  <p class="camp_stock_txt">フローラディクス</p>
+  </a></div>
+
+  <div class="camp_stock"><a href="https://yoihibi.jp/item/BEYOPE.html" target="_blank">
+  <p class="camp_stock_img"><img src="https://dbcn1bdvswqbx.cloudfront.net/client_info/FLORAHOUSE01/itemimage/syouhin/beyope_new.jpg"></p>
+  <p class="camp_stock_txt">ビヨンド・プレバイオ</p>
   </a></div>
 
 </div>
