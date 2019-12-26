@@ -65,8 +65,8 @@
 <!--★削除禁止★ -->
 
 <div class="column_head">
-  <img src="<?php echo $Path ?>title.png" class="spnone">
-  <img src="<?php echo $Path ?>title_s.png" class="pcnone">
+  <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/title.png" class="spnone">
+  <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/title_s.png" class="pcnone">
   <div class="intoroduction">
   昨年（2019年）5・6月合併号でご紹介いたしました「シニアにおすすめ サプリメント活用法！」を2020年版に更新させていただきました。「ご愛用者ランキング」をご覧になって、気になる商品などもおありかと思いますので、ご参考にしてください。
 「よい日々ショップ」では、何かを足す前にからだの中を浄化する、不要なものを排出するという考え方をおすすめしております。ぜひステップ１からお始めください。
@@ -74,13 +74,13 @@
 </div>
 
 <div class="column_100img">
-	<img src="<?php echo $Path ?>pc1.png" class="spnone">
-	<img src="<?php echo $Path ?>sp1.png" class="pcnone">
-	<img src="<?php echo $Path ?>sp2.png" class="pcnone">
-	<img src="<?php echo $Path ?>sp3.png" class="pcnone">
-	<img src="<?php echo $Path ?>sp4.png" class="pcnone">
-	<img src="<?php echo $Path ?>sp5.png" class="pcnone">
-	<img src="<?php echo $Path ?>sp6.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/pc1.png" class="spnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp1.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp2.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp3.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp4.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp5.png" class="pcnone">
+	<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001KOE/sp6.png" class="pcnone">
 </div>
 
 <div class="camp_stock_area">

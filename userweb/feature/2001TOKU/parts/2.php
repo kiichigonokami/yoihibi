@@ -54,8 +54,8 @@
 
 <div class="koe_head">
   <div class="koe_head_ban">
-    <img src="<?php echo $Path ?>title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
-    <img src="<?php echo $Path ?>title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
+    <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
   </div>
 
   <div class="intoroduction">
@@ -68,7 +68,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock1.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock1.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -81,7 +81,7 @@
         日本で発売されて今年で18年目になる『ウドズオイル』。皆さんの食生活に欠かせないオイルになっているのではないでしょうか？ 下記のおすすめの摂り方を参考に、これからもぜひお続けください！
         </div>
         <div class="koe_stock_img">
-          <img src="<?php echo $Path ?>stock1_etc.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock1_etc.png">
         </div>
         <div class="koe_detail_link">
           <ul>
@@ -94,7 +94,7 @@
 
   <div class="fl-box plus">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock+1.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock+1.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -118,7 +118,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock2.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock2.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -137,7 +137,7 @@
 
       <div class="fl-box plus2">
         <div class="fl-l">
-          <img src="<?php echo $Path ?>stock++2.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock++2.png">
         </div>
         <div class="fl-r">
           <div class="koe_stock">
@@ -164,7 +164,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock3.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock3.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -190,7 +190,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock4.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock4.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -216,7 +216,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock5.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock5.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -232,7 +232,7 @@
           </ul>
         </div>
         <div class="koe_stock_img">
-          <img src="<?php echo $Path ?>stock5_etc.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock5_etc.png">
         </div>
       </div>
 
@@ -245,7 +245,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock6.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock6.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -266,7 +266,7 @@
 
       <div class="fl-box plus2">
         <div class="fl-l">
-          <img src="<?php echo $Path ?>stock++6.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock++6.png">
         </div>
         <div class="fl-r">
           <div class="koe_stock">
@@ -293,7 +293,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock7.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock7.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -314,7 +314,7 @@
 
       <div class="fl-box plus2">
         <div class="fl-l">
-          <img src="<?php echo $Path ?>stock++7.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock++7.png">
         </div>
         <div class="fl-r">
           <div class="koe_stock">
@@ -341,7 +341,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock8.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock8.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -369,7 +369,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="<?php echo $Path ?>stock9.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock9.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
