@@ -100,13 +100,13 @@
       <div class="koe_stock">
         <div class="koe_stock_title">
           <small>発酵野菜の食物繊維たっぷり</small>
-          <span>オーガニックビヨンド・グリーンズ</span>
-          <i>250ml / 500ml</i>
+          <span>オーガニック ビヨンド・グリーンズ</span>
+          <i>255g</i>
         </div>
       </div>
       <div class="koe_detail_link">
         <ul>
-          <li><a href="https://yoihibi.jp/category/ITEM_SUPPLE/ORGABG.html">オーガニックビヨンド・グリーンズの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
+          <li><a href="https://yoihibi.jp/category/ITEM_SUPPLE/ORGABG.html">オーガニック ビヨンド・グリーンズの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
         </ul>
       </div>
     </div>
@@ -216,7 +216,7 @@
 
   <div class="fl-box">
     <div class="fl-l">
-      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock5.png">
+      <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock5_.png">
     </div>
     <div class="fl-r">
       <div class="koe_stock">
@@ -226,8 +226,8 @@
         </div>
         <div class="koe_detail_link">
           <ul>
-            <li><a href="https://yoihibi.jp/item/SUNMAT.html">サン・マットの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
             <li><a href="https://yoihibi.jp/item/SUNRAM.html">サンラメラの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
+            <li><a href="https://yoihibi.jp/item/SUNMAT.html">サン・マットの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
             <li><a href="https://yoihibi.jp/item/ARUSUP.html">アルファウェーブ サポートシリーズの詳細はこちら</a> <i class="fas fa-chevron-circle-right"></i></li>
           </ul>
         </div>
@@ -314,7 +314,7 @@
 
       <div class="fl-box plus2">
         <div class="fl-l">
-          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock++7.png">
+          <img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2001TOKU/stock++7_.png">
         </div>
         <div class="fl-r">
           <div class="koe_stock">
