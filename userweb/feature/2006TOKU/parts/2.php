@@ -2,9 +2,14 @@
 .spnone {display:block!important;}
 .pcnone {display:none!important;}
 .marker {
-  background: -webkit-linear-gradient(transparent 90%, rgba(248, 184, 86, 0.9) 10%);
-  background: -o-linear-gradient(transparent 90%, rgba(248, 184, 86, 0.9) 10%);
-  background: linear-gradient(rgba(0, 0, 0, 0) 90%, rgba(248, 184, 86, 0.9) 10%);
+  background: -webkit-linear-gradient(transparent 90%, rgba(197, 0, 24, 0.9) 10%);
+  background: -o-linear-gradient(transparent 90%, rgba(197, 0, 24, 0.9) 10%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 90%, rgba(197, 0, 24, 0.9) 10%);
+}
+.marker2 {
+  background: -webkit-linear-gradient(transparent 50%, rgba(255, 255, 0, 0.9) 50%);
+  background: -o-linear-gradient(transparent 50%, rgba(255, 255, 0, 0.9) 50%);
+  background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(255, 255, 0, 0.9) 50%);
 }
 .item_list_wrap_camp { clear: both; border-top: 1px solid #358669; margin: 60px 0 0 0; display: block; overflow: hidden;}
 .item_list_box .img_box {margin-right: 10px;}
@@ -43,14 +48,14 @@
 s { text-decoration: none; display: inline; border-bottom: 3px solid #32a83b; line-height: auto;}
 
 .article_detail_info {width: 100%!important;}
-.item_detail_ttl_name { border-color: #834d00!important;}
+.item_detail_ttl_name { border-color: #6267a0!important;}
 .intoroduction {text-align: left; margin: -20px 1% 60px; width: 98%; position: relative; padding: 2.5% 2% 2%; background: rgba(255, 255, 255, 0.9); color: #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); -webkit-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); display: block; overflow: hidden;}
 
-h3.article_detail_contents_box__title { color: #834d00 !important; font-weight: bold; font-size: 140%; border: none !important; margin: 0 0 0 0;}
+h3.article_detail_contents_box__title { color: #6267a0 !important; font-weight: bold; font-size: 140%; border: none !important; margin: 0 0 0 0;}
 h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('<?php echo $Path ?>h2_before.png') no-repeat; background-size:contain;}
 
 span.item_detail_feature_title,
-h3.article_detail_contents_box__title {color:#834d00 !important;}
+h3.article_detail_contents_box__title {color:#6267a0 !important;}
 
 
 #free_img1 {display: block; overflow: hidden; margin:0 auto 50px;}
@@ -86,7 +91,7 @@ h3.article_detail_contents_box__title {color:#834d00 !important;}
 .qa_area_contents_box_comment { padding: 16px 8px; text-align: justify; font-size: 14px; letter-spacing: 1px;}
 .qa_area_contents_box_comment s { color: #ea5532; text-decoration: none; border: 0;}
 
-.feature_summary_stuff { background: url('https://yoihibi.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1806/3back.jpg') no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
+.feature_summary_stuff { background: url('<?php echo $Path ?>3back.jpg') no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
 .feature_summary_stuff p { background: #ffffff; padding:15px; -moz-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); -webkit-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); width: 90%; line-height: 1.8;}
 .feature_summary_stuff p span { border-bottom: 1px dashed #999999; margin: 0 0 5px 0;}
 .feature_summary_stuff .staff { width: 158px; height: 169px; position: absolute; display: block; overflow: hidden; bottom: -20px; right: -20px; }
@@ -94,6 +99,15 @@ h3.article_detail_contents_box__title {color:#834d00 !important;}
 
 .kihonnoki_jas_memo_top {font-size:20px; color: #41a03c; margin:50px 0 0 15px !important; font-style: italic; padding: 0 !important; font-weight: bold;}
 .kihonnoki_jas_memo {border-radius:20px; border: 3px solid #41a03c; padding: 20px; margin:-5px 0 0 0;}
+
+.elm-qa {max-width:620px; display:block; margin:0 auto 40px;}
+.elm-qa-img {width:100%; display:block; margin:0; padding:0;}
+.elm-qa-main {width:100%; display:block; margin:0; padding:16px; box-sizing:border-box;}
+.elm-qa-main-box {width:100%; display:block; margin:0; padding:0 0 40px 0; box-sizing:border-box;}
+.elm-qa-main-box-q {font-size:18px; font-weight:bold; margin:0 0 8px 0; box-sizing:border-box;}
+.elm-qa-main-box-q:before {content:'Q'; color:#eabd00; font-size:130%;}
+.elm-qa-main-box-a {font-size:14px;}
+.elm-qa-main-box-a:before {content:'A'; color:#eabd00; font-weight:bold; font-size:130%;}
 
 @media screen and (max-width: 767px) {
 .spnone {display:none!important;}
@@ -115,7 +129,7 @@ h3.article_detail_contents_box__title {color:#834d00 !important;}
 .feature_summary_matome .matome_disp {font-size: 20px;}
 .feature_summary_matome .matome { font-size: 14px;}
 
-.feature_summary_stuff { padding: 20px 20px 110px; background: url('https://yoihibi.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/1806/3back.jpg') no-repeat; background-size: 200%;}
+.feature_summary_stuff { padding: 20px 20px 110px; background: url('<?php echo $Path ?>3back.jpg') no-repeat; background-size: 200%;}
 .feature_summary_stuff .staff { bottom: -36px;}
 .feature_summary_stuff p { width: 88%; text-align: justify;}
 .feature_summary_stuff .staff img { width: 90%; }
