@@ -56,7 +56,7 @@
 		</li>
 
 		<li class="image_ver">
-			<div class="ima_box"><img src="<?php echo $Path ?>img1.png" alt=""></div>
+			<div class="ima_box"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/img1.png" alt=""></div>
 		</li>
 
 		</ul>
@@ -86,7 +86,7 @@
 			</li>
 
 			<li class="image_ver">
-				<div class="ima_box"><img src="<?php echo $Path ?>img2.png" alt=""></div>
+				<div class="ima_box"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/img2.png" alt=""></div>
 				<p><b>参考にした書籍とサイト</b><br>
 					・『呼吸器内科医が解説！新型コロナウイルス感染症COVID-19』粟野暢康、出雲雄大監修・編集、医療科学社<br>
 					・『生物はウイルスが進化させた』武村政春、講談社<br>
@@ -135,7 +135,7 @@
 
 
 <div class="article_detail_contents_box">
-	<span><h3 class="article_detail_contents_box__title" id="toku-ttl5">免疫力を強化する栄養成分</h3></span>
+	<span><h3 class="article_detail_contents_box__title" id="toku-ttl6">免疫力を強化する栄養成分</h3></span>
 	<ul>
 
 			<li class="text_ver">
@@ -162,9 +162,9 @@
 		<li class="text_ver">
 			<p>
 
-<div class="elm-qa">
+<div class="elm-qa" id="toku-ttl7">
 	<div class="elm-qa-img">
-		<img src="<?php echo $Path ?>qa_ttl.jpg">
+		<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/qa_ttl.jpg">
 	</div>
 	<div class="elm-qa-main">
 		<div class="elm-qa-main-box">
@@ -216,7 +216,7 @@
 </div>
 
 <div class="feature_summary_stuff">
-	<div class="staff"><img src="<?php echo $Path ?>takemura.png"></div>
+	<div class="staff"><img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/takemura.png"></div>
 	<p><span>この特集をきっかけにしていただいて、自分やご家族の食事、生活習慣などを見直してみませんか？ これまでの習慣を変えるのは難しいですが、新しい習慣が身に付けば、このご時世を乗り越える自信につながり、一つの力になると思います。（よい日々編集 竹村）</span></p>
 </div>
 

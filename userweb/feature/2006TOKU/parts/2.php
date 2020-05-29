@@ -52,7 +52,7 @@ s { text-decoration: none; display: inline; border-bottom: 3px solid #32a83b; li
 .intoroduction {text-align: left; margin: -20px 1% 60px; width: 98%; position: relative; padding: 2.5% 2% 2%; background: rgba(255, 255, 255, 0.9); color: #333; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); -webkit-box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); box-shadow: 0 0 20px rgba(238, 134, 162, 0.9); display: block; overflow: hidden;}
 
 h3.article_detail_contents_box__title { color: #6267a0 !important; font-weight: bold; font-size: 140%; border: none !important; margin: 0 0 0 0;}
-h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('<?php echo $Path ?>h2_before.png') no-repeat; background-size:contain;}
+h3.article_detail_contents_box__title:before { content: ''; display: inline-block; width:30px; height:30px; vertical-align: middle; position: relative; top: -4px; padding: 0 15px 0 0; background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/h2_before.png') no-repeat; background-size:contain;}
 
 span.item_detail_feature_title,
 h3.article_detail_contents_box__title {color:#6267a0 !important;}
@@ -91,7 +91,7 @@ h3.article_detail_contents_box__title {color:#6267a0 !important;}
 .qa_area_contents_box_comment { padding: 16px 8px; text-align: justify; font-size: 14px; letter-spacing: 1px;}
 .qa_area_contents_box_comment s { color: #ea5532; text-decoration: none; border: 0;}
 
-.feature_summary_stuff { background: url('<?php echo $Path ?>3back.jpg') no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
+.feature_summary_stuff { background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/3back.jpg') no-repeat; background-size: 100%; padding: 20px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; position: relative; margin:30px 0 0 0;}
 .feature_summary_stuff p { background: #ffffff; padding:15px; -moz-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); -webkit-box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); box-shadow: 3px 3px 3px rgba(153, 153, 153, 0.5); width: 90%; line-height: 1.8;}
 .feature_summary_stuff p span { border-bottom: 1px dashed #999999; margin: 0 0 5px 0;}
 .feature_summary_stuff .staff { width: 158px; height: 169px; position: absolute; display: block; overflow: hidden; bottom: -20px; right: -20px; }
@@ -129,7 +129,7 @@ h3.article_detail_contents_box__title {color:#6267a0 !important;}
 .feature_summary_matome .matome_disp {font-size: 20px;}
 .feature_summary_matome .matome { font-size: 14px;}
 
-.feature_summary_stuff { padding: 20px 20px 110px; background: url('<?php echo $Path ?>3back.jpg') no-repeat; background-size: 200%;}
+.feature_summary_stuff { padding: 20px 20px 110px; background: url('https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/3back.jpg') no-repeat; background-size: 200%;}
 .feature_summary_stuff .staff { bottom: -36px;}
 .feature_summary_stuff p { width: 88%; text-align: justify;}
 .feature_summary_stuff .staff img { width: 90%; }
@@ -145,8 +145,8 @@ h3.article_detail_contents_box__title {color:#6267a0 !important;}
 </style>
 
 
-<img src="<?php echo $Path ?>title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
-<img src="<?php echo $Path ?>title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/title.png" width="100%;" style="margin: 0 0 50px 0;" class="spnone">
+<img src="https://aladdinec.jp/client_info/FLORAHOUSE01/view/userweb/images/feature/2006TOKU/title_s.png" width="100%;" style="margin: 0 0 0 0;" class="pcnone">
 
 <div class="article_detail_text">
   <p>　以前の会報誌「こんにちは」（２０１６年11月号Vol.41）でお伝えした「免疫力」の内容を２０２０年版に更新。国内外の栄養療法に詳しい氏家京子さんに最新情報を交えながら、食生活で免疫力を高める方法などを教えていただきます。</p>
